@@ -18,3 +18,5 @@ jobs:
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_MYBLOG_3160D }}'
           channelId: live
           projectId: myblog-3160d
+          env:
+            FIREBASE_CLI_EXPERIMENTS: webframeworks
