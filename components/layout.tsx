@@ -2,6 +2,7 @@ import Footer from './footer'
 import Meta from './meta'
 
 type Props = {
+  preview?: boolean
   children: React.ReactNode
 }
 
