@@ -18,7 +18,7 @@ export default function About() {
         </Head>
         <Container>
           <Header />
-		  お探しのページが見つかりませんでした。ホームへ戻る。
+		  お探しのページが見つかったよこれはtag.tsx。ホームへ戻る。
         </Container>
       </Layout>
     </>
