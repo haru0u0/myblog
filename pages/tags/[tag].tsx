@@ -1,74 +1,27 @@
-import { useRouter } from 'next/router'
-import ErrorPage from 'next/error'
-import { CMS_NAME } from '../../lib/constants'
-import {getAllTags, getPostsByTag} from "../../lib/api";
-import Post from "../../interfaces/post";
-import Head from "next/head";
-import Header from '../../components/header'
-import Layout from "../../components/layout";
-import Container from "../../components/container";
-import MoreStories from "../../components/more-stories";
+import Container from '../components/container'
+import MoreStories from '../components/more-stories'
+import Intro from '../components/intro'
+import Layout from '../components/layout'
+import Header from '../components/header'
+import { getAllPosts, getAllTags, getPostsByTag } from '../lib/api'
+import Head from 'next/head'
+import { CMS_NAME } from '../lib/constants'
+import Post from '../interfaces/post'
+import Twemoji from '../lib/Twemoji'
 
-
-type Props = {
-  posts: Post[],
-  tag: string
-}
-
-export default function Index({ posts, tag }: Props) {
+export default function About() {
   return (
-      <>
-        <Layout>
-          <Head>
-            <title>{tag}</title>
-          </Head>
-          <Container>
+    <>
+      <Layout>
+        <Head>
+          <title>{`senharu blog`}</title>
+        </Head>
+        <Container>
           <Header />
-      <h2 className="mb-8 text-5xl md:text-7xl font-bold tracking-tighter leading-tight tag">
-        {tag}
-      </h2>
-            <MoreStories posts={posts} />
-          </Container>
-        </Layout>
-      </>
+		  お探しのページが見つかりませんでした。ホームへ戻る。
+        </Container>
+      </Layout>
+    </>
   )
 }
 
-type Params = {
-  params: {
-    tag: string
-  }
-}
-
-
-export const getStaticProps = ({ params }: Params) => {
-  const posts = getPostsByTag(params.tag, [
-    'title',
-    'date',
-    'slug',
-    'emoji',
-    'tags'
-  ])
-
-  return {
-    props: {
-      posts: posts,
-      tag: params.tag
-    },
-  }
-}
-
-export function getStaticPaths() {
-  const tags = getAllTags();
-
-  return {
-    paths: tags.map((tag) => {
-      return {
-        params: {
-          tag: tag,
-        },
-      }
-    }),
-    fallback: false,
-  }
-}
