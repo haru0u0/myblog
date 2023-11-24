@@ -1,1 +1,1 @@
-self.__REACT_LOADABLE_MANIFEST="{\"_app.tsx -> zenn-embed-elements\":{\"id\":\"_app.tsx -> zenn-embed-elements\",\"files\":[\"static/chunks/node_modules_zenn-embed-elements_lib_index_js.js\"]},\"posts/[slug].tsx -> zenn-embed-elements\":{\"id\":\"posts/[slug].tsx -> zenn-embed-elements\",\"files\":[\"static/chunks/node_modules_zenn-embed-elements_lib_index_js.js\"]}}"
+self.__REACT_LOADABLE_MANIFEST="{\"_app.tsx -> zenn-embed-elements\":{\"id\":\"_app.tsx -> zenn-embed-elements\",\"files\":[\"static/chunks/node_modules_zenn-embed-elements_lib_index_js.js\"]}}"
