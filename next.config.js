@@ -27,6 +27,7 @@ module.exports = {
             context: '_posts',
             from: '**/*.{jpg,png}',
             to: resolve(__dirname, 'public/assets/blog/posts'),
+			  noErrorOnMissing: true,
           },
         ],
       }),

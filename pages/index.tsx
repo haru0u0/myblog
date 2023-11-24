@@ -14,7 +14,7 @@ type Props = {
 }
 
 export default function Index({ allPosts }: Props) {
-  const morePosts = allPosts.slice(0, 3)
+  const morePosts = allPosts.slice(0, 4)
   return (
     <>
       <Layout>

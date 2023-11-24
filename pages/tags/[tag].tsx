@@ -56,6 +56,7 @@ export const getStaticProps = ({ params }: Params) => {
 
 export function getStaticPaths() {
   const tags = getAllTags();
+
   return {
     paths: tags.map((tag) => {
       return {
