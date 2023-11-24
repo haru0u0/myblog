@@ -3,6 +3,7 @@ import { CMS_NAME } from '../lib/constants'
 import Post from '../interfaces/post'
 import Layout from './layout'
 import Container from './container'
+import Intro from './intro'
 
 type Props = {
   allPosts: Post[]
