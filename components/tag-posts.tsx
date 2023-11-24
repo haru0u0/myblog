@@ -2,6 +2,7 @@ import Head from 'next/head'
 import { CMS_NAME } from '../lib/constants'
 import Post from '../interfaces/post'
 import Layout from './layout'
+import Container from './container'
 
 type Props = {
   allPosts: Post[]
