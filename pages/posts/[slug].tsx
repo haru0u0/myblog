@@ -47,10 +47,12 @@ __html: initTwitterScriptInner
                 <title>{title}</title>
                 <meta property="og:image" content={post.ogImage.url} />
               </Head>
+<div / >
               <PostHeader
                 title={post.title}
-                coverImage={post.coverImage}
+                emoji={post.emoji}
                 date={post.date}
+                tags={post.tags}
               />
               <PostBody content={post.content} />
             </article>
@@ -74,9 +76,10 @@ export async function getStaticProps({ params }: Params) {
     'slug',
     'content',
     'ogImage',
-    'coverImage',
+    'emoji',
+    'tags',
   ])
-  const content = await markdownToHtml(post.content || '')
+  const content = await markdownToHtml(post.content || '');
 
   return {
     props: {

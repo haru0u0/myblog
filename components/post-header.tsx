@@ -5,22 +5,30 @@ import PostTitle from './post-title'
 
 type Props = {
   title: string
-  coverImage: string
+  emoji: string
   date: string
+  tags: string[]
 }
 
-const PostHeader = ({ title, coverImage, date}: Props) => {
+const PostHeader = ({ title, emoji, date, tags}: Props) => {
   return (
     <>
-      <PostTitle>{title}</PostTitle>
-      <div className="mb-8 md:mb-16 sm:mx-0">
-        <CoverImage title={title} src={coverImage} />
+<div className="bg-gray-100 p-10">
+      <div className="mb-3 md:mb-16 sm:mx-i4 flex justify-center">
+        <CoverImage title={title} emoji={emoji} />
       </div>
+      <PostTitle>{title}</PostTitle>
+       <ul className="flex gap-x-2 justify-center">
+       {
+       tags.map((tag) => <li className="font-bold mb-4 bg-pink-100 text-pink-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-pink-900 dark:text-pink-300"><a href={`/tags/${tag}`}>{tag}</a></li>)
+       }
+      </ul>
       <div className="max-w-2xl mx-auto">
-        <div className="mb-6 text-lg">
+        <div className="mb-6 text-lg flex justify-center">
           <DateFormatter dateString={date} />
         </div>
       </div>
+</div>
     </>
   )
 }
