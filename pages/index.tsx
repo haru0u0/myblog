@@ -26,7 +26,7 @@ export default function Index({ allPosts }: Props) {
                 <h2 className="mb-8 text-5xl md:text-7xl font-bold tracking-tighter leading-tight">
         Categories
       </h2>
-          <div className="grid grid-cols-1 mb-16 gap-4 justify-items-center md:grid-cols-3">
+          <div className="flex flex-wrap  mb-16 gap-4 justify-items-center">
 <a href="/tags/イギリスお仕事" className="bg-pink-50 hover:bg-pink-200 text-pink-800 font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-pink-900 dark:text-pink-300">イギリスお仕事<Twemoji emoji="🇬🇧" /></a>
 <a href="/tags/イギリス42" className="bg-pink-50 hover:bg-pink-200 text-pink-800 font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-pink-900 dark:text-pink-300">イギリス42<Twemoji emoji="🇬🇧" /></a>
 <a href="/tags/イギリス大学院留学" className="bg-pink-50 hover:bg-pink-200 text-pink-800 font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-pink-900 dark:text-pink-300">イギリス大学院留学<Twemoji emoji="🇬🇧" /></a>

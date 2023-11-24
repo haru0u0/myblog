@@ -7,7 +7,6 @@ type Props = {
   title: string
   emoji: string
   date: string
-  excerpt: string
   slug: string
   tags: string[]
 }
@@ -16,7 +15,6 @@ const PostPreview = ({
   title,
   emoji,
   date,
-  excerpt,
   slug,
   tags
 }: Props) => {
