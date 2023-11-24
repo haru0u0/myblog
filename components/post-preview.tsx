@@ -22,7 +22,7 @@ const PostPreview = ({
       <div className="w-24 h-24 mb-3">
         <CoverImage slug={slug} title={title} emoji={emoji} />
       </div>
-      <h3 className="mb-4 text-xl font-medium text-center gray-900 dark:text-white">
+      <h3 className="m-4 text-xl font-medium text-center gray-900 dark:text-white">
         <Link
           as={`/posts/${slug}`}
           href="/posts/[slug]"

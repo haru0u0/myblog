@@ -4,7 +4,7 @@ import Post from '../interfaces/post'
 import Layout from './layout'
 import Container from './container'
 import Intro from './intro'
-
+import MoreStories from './more-stories'
 type Props = {
   allPosts: Post[]
 }
