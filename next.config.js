@@ -1,15 +1,5 @@
 const { resolve } = require('path')
-
-/*
-const nextConfig = {
-  output: 'export',
-  distDir: 'out',
-  images: {
-    unoptimized: true,
-  },
-}
-*/
-
+const CaseSensitivePathsPlugin = require('case-sensitive-paths-webpack-plugin');
 const CopyFilePlugin = require('copy-webpack-plugin')
 const WriteFilePlugin = require('write-file-webpack-plugin')
 
@@ -28,10 +18,11 @@ module.exports = {
             from: '**/*.{jpg,png}',
             to: resolve(__dirname, 'public/assets/blog/posts'),
 			  noErrorOnMissing: true,
-          },
-        ],
-      }),
-      new WriteFilePlugin()
+		  },
+		],
+	  }),
+		new WriteFilePlugin(),
+		new CaseSensitivePathsPlugin()
     )
     return config
   },
