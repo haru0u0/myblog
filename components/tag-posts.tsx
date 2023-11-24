@@ -5,7 +5,6 @@ import Layout from './layout'
 import Container from './container'
 import Intro from './intro'
 import MoreStories from './more-stories'
-import type Post from '../interfaces/post'
 import { getAllPosts, getAllTags, getP    ostsByTag } from '../lib/api'
 
 type Props = {
