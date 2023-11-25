@@ -1,6 +1,7 @@
 import DateFormatter from './date-formatter'
 import CoverImage from './cover-image'
 import PostTitle from './post-title'
+import Link from 'next/link';
 
 type Props = {
   title: string
@@ -19,7 +20,7 @@ const PostHeader = ({ title, emoji, date, tags}: Props) => {
       <PostTitle>{title}</PostTitle>
        <ul className="flex gap-x-2 justify-center">
        {
-       tags.map((tag) => <li className="font-bold mb-4 bg-pink-100 text-pink-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-pink-900 dark:text-pink-300"><a href={`/tags/${tag}`}>{tag}</a></li>)
+       tags.map((tag) => <li className="font-bold mb-4 bg-pink-100 text-pink-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-pink-900 dark:text-pink-300"><Link href={`/tags/${tag}`}>{tag}</Link></li>)
        }
       </ul>
       <div className="max-w-2xl mx-auto">
