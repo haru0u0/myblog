@@ -1,4 +1,4 @@
-import Footer from './footer'
+import Myfooter from './myfooter'
 import Meta from './meta'
 import { M_PLUS_Rounded_1c } from "next/font/google";
 
@@ -16,7 +16,7 @@ const Layout = ({ preview, children }: Props) => {
       <div className="min-h-screen">
         <main className={MPLUSRounded1cFont.className}>{children}</main>
       </div>
-      <Footer />
+      <Myfooter />
     </>
   )
 }

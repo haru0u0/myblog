@@ -21,10 +21,10 @@ const Header = () => {
         inline
         label={"Study Abroad"}>
         <Dropdown.Item href ="/tags/イギリス42"><Twemoji emoji="🇬🇧" /> 42 London</Dropdown.Item>
-                <Dropdown.Item href ="/tags/イギ リス大学院"><Twemoji emoji="🇬🇧" /> 大学院</Dropdown.Item>
+                <Dropdown.Item><Link href ="/tags/イギリス大学院"><Twemoji emoji="🇬🇧" /> 大学院</Link></Dropdown.Item>
                 <Dropdown.Item href="/tags/アメリカ交換留学"><Twemoji emoji="🇺🇸" />交換留学</Dropdown.Item>
                 <Dropdown.Item href="/tags/アメリカ語学留学"><Twemoji emoji="🇺🇸" />語学留学</Dropdown.Item>
-                <Dropdown.Item href="/tags/SWY"><Twemoji emoji="🛳" />SWY</Dropdown.Item>
+                <Dropdown.Item><Link href="/tags/SWY"><Twemoji emoji="🛳" />SWY</Link></Dropdown.Item>
         </Dropdown>
         </div>
         <Navbar.Link href="/">Work Abroad</Navbar.Link>
