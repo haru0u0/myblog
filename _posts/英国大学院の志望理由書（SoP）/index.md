@@ -5,7 +5,7 @@ emoji: "💌"
 ogImage:
   url: '/assets/blog/preview/cover.jpg'
 tags:
-  - イギリス大学院留学 
+  - イギリス大学院
 ---
 
 SoP執筆時に使ったリソースをご紹介しつつ、私が実際に出願時に使用したSoPもご紹介しま～す。
@@ -29,10 +29,10 @@ BEOとカウンセリング契約をすると、過去の合格者のSoPサン�
 
 受付停止しているタイミングなどもあるようなので、もしタイミング合えばぜひご依頼おすすめです。ただ、結構手を入れてくださるので、100%自分で仕上げたい！！という方向性の方には向かないかもしれないです。
 
-[Msparrotさん(海外転職・海外ビジネスサポーター)のプロフィール | ココナラ](https://coconala.com/users/131214)
+@[card](https://coconala.com/users/131214)
 
 # わたしのSoP
 
 もしサンプルが手に入りにくく、お困りの方などいらっしゃいましたら、ご活用いただければ、、、という気持ちで以下にSoPを置いておきます。さすがに無料では恥ずかしいので、有料ですんませんですが、よろしければどうぞ。
 
-[イギリス大学院留学のStatement of Purpose（教育学修士課程）｜はるちゃん｜note](https://note.com/haruchannn/n/n33ac8cb22aea)
+@[card](https://note.com/haruchannn/n/n33ac8cb22aea)

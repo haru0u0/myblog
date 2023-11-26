@@ -12,17 +12,17 @@ tags:
 
 リスの写真撮るのうまくなってきた
 
-![https://cdn-ak.f.st-hatena.com/images/fotolife/m/mtgts9320/20181003/20181003084817.jpg](https://cdn-ak.f.st-hatena.com/images/fotolife/m/mtgts9320/20181003/20181003084817.jpg)
+![1](/assets/blog/posts/おさんぽ/1.png)
 
-![https://cdn-ak.f.st-hatena.com/images/fotolife/m/mtgts9320/20181003/20181003084828.jpg](https://cdn-ak.f.st-hatena.com/images/fotolife/m/mtgts9320/20181003/20181003084828.jpg)
+![2](/assets/blog/posts/おさんぽ/2.png)
 
 道の割れ目のたんぽぽではなくてキノコ
 
-![https://cdn-ak.f.st-hatena.com/images/fotolife/m/mtgts9320/20181003/20181003084852.jpg](https://cdn-ak.f.st-hatena.com/images/fotolife/m/mtgts9320/20181003/20181003084852.jpg)
+![3](/assets/blog/posts/おさんぽ/3.png)
 
 でかさ伝わらないけど玄関先に大きいかぼちゃがやってきた、ハロウィンだねえ
 
-![https://cdn-ak.f.st-hatena.com/images/fotolife/m/mtgts9320/20181003/20181003084806.jpg](https://cdn-ak.f.st-hatena.com/images/fotolife/m/mtgts9320/20181003/20181003084806.jpg)
+![4](/assets/blog/posts/おさんぽ/4.png)
 
 街の紹介もいつかしたいなと思っていて、何枚か写真撮ってきたんだけど、曇っていて映えなかったので、またこんどにします。
 

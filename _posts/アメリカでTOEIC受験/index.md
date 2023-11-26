@@ -5,10 +5,10 @@ emoji: "✍"
 ogImage:
   url: '/assets/blog/preview/cover.jpg'
 tags:
-  - usexchange
+  - アメリカ交換留学
 ---
 
-![https://cdn-ak.f.st-hatena.com/images/fotolife/m/mtgts9320/20181029/20181029035501.png](https://cdn-ak.f.st-hatena.com/images/fotolife/m/mtgts9320/20181029/20181029035501.png)
+![1.png](/assets/blog/posts/アメリカでTOEIC受験/1.png)
 
 最後に受けたのは2年生の終わりの3月で925点だったので、50点くらい伸びた、
 

@@ -5,7 +5,7 @@ emoji: "😵"
 ogImage:
   url: '/assets/blog/preview/cover.jpg'
 tags:
-  - イギリス大学院留学
+  - イギリス大学院
 ---
 
 Overall6.5 ( 6.5 in all skills )という語学要件を何とか満たして英国大学院からunconditional offerをいただけたので、これまでのIELTS遍歴を振り返ります！！！！！
@@ -38,9 +38,9 @@ Overall6.5 ( 6.5 in all skills )という語学要件を何とか満たして英
 １．Udemy、Podcast、Youtube等の教材から、topicごとに使える表現を抜き出す！
 　　教材は好きなものがいいと思いますが、わたしのおきにいりはこちら↓
 
-[IELTS Speaking Preparation - Keith Speaking Academy](https://keithspeakingacademy.com/)
+@[card](https://keithspeakingacademy.com/)
 
-[IELTS Speaking for Success - Model Answers and Vocabulary](https://successwithielts.com/podcast)
+@[card](https://successwithielts.com/podcast)
 
 ２．そのtopicで出題された質問（W, S問わず）を検索して、抜き出した表現を使ってサンプル回答を作文する。
 
@@ -53,7 +53,6 @@ Overall6.5 ( 6.5 in all skills )という語学要件を何とか満たして英
 
 ５．これを各トピック繰り返す！
 
-[https://twitter.com/Dio_London/status/1508073166748401672?s=20&t=V0oKZx5qVsoQIyZlou_Whg](https://twitter.com/Dio_London/status/1508073166748401672?s=20&t=V0oKZx5qVsoQIyZlou_Whg)
 
 ## 勉強法以外
 
@@ -64,4 +63,4 @@ Overall6.5 ( 6.5 in all skills )という語学要件を何とか満たして英
 - IDPの会場
 アットホームで暖かいし、小規模なので無駄な待ち時間もないです。
 - できるだけ短期間に間をあけずに繰り返し受験　＆　Speaking問題の復習
-2か月に3回ほどのハイペースで受験していた時期があったのですが、その際、まったく同じSpeaking問題に何度か遭遇しました。以下引用ツイートのような情報もあるので、短期間での繰り返し受験＆復習　がおすすめ！
+2か月に3回ほどのハイペースで受験していた時期があったのですが、その際、まったく同じSpeaking問題に何度か遭遇しました。短期間での繰り返し受験＆復習　がおすすめ！

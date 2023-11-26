@@ -11,4 +11,4 @@ services:
       - .:/home/app
     tty: true
     stdin_open: true
-    command: yarn dev
+    command: npm run dev

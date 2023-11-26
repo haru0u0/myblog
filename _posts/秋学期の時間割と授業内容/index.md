@@ -47,7 +47,7 @@ COM212: Mass Communication（マスコミ論） 水15:00-16:15
 
 これはとある授業のカリキュラムの一部ですが、内容やその週の課題がかなり具体的に記載されているのがわかるかと思います。
 
-![https://cdn-ak.f.st-hatena.com/images/fotolife/m/mtgts9320/20180924/20180924045914.png](https://cdn-ak.f.st-hatena.com/images/fotolife/m/mtgts9320/20180924/20180924045914.png)
+![1](/assets/blog/posts/秋学期の時間割と授業内容/1.png)
 
 毎週4連休ですが、わりとずーっと勉強しています、、、。英語力がしんでいるので、読んだり書いたりすることに無限に時間がかかる。慣れていけるといいなあ。
 

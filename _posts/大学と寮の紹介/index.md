@@ -14,15 +14,15 @@ tags:
 
 わたしが主に授業を受けている社会学の校舎はここ。
 
-![https://cdn-ak.f.st-hatena.com/images/fotolife/m/mtgts9320/20180923/20180923071936.jpg](https://cdn-ak.f.st-hatena.com/images/fotolife/m/mtgts9320/20180923/20180923071936.jpg)
+![1](/assets/blog/posts/大学と寮の紹介/1.jpg)
 
 わたしの趣味ではないのが残念だけど、ぜんぶ建物は素敵、、、だと思います、、、。
 
-![https://cdn-ak.f.st-hatena.com/images/fotolife/m/mtgts9320/20180923/20180923070615.jpg](https://cdn-ak.f.st-hatena.com/images/fotolife/m/mtgts9320/20180923/20180923070615.jpg)
+![2](/assets/blog/posts/大学と寮の紹介/2.jpg)
 
-![https://cdn-ak.f.st-hatena.com/images/fotolife/m/mtgts9320/20180923/20180923070728.jpg](https://cdn-ak.f.st-hatena.com/images/fotolife/m/mtgts9320/20180923/20180923070728.jpg)
+![3](/assets/blog/posts/大学と寮の紹介/3.jpg)
 
-![https://cdn-ak.f.st-hatena.com/images/fotolife/m/mtgts9320/20180923/20180923071916.jpg](https://cdn-ak.f.st-hatena.com/images/fotolife/m/mtgts9320/20180923/20180923071916.jpg)
+![4](/assets/blog/posts/大学と寮の紹介/4.jpg)
 
 # 住んでいるところ
 
@@ -35,30 +35,30 @@ tags:
 リビング、マジで頭悪そう、、、、。
 いろいろ元からこうだったわけではなく、ハウスメイトが気づいたら大改造していた。
 
-![https://cdn-ak.f.st-hatena.com/images/fotolife/m/mtgts9320/20180923/20180923072509.jpg](https://cdn-ak.f.st-hatena.com/images/fotolife/m/mtgts9320/20180923/20180923072509.jpg)
+![5](/assets/blog/posts/大学と寮の紹介/5.jpg)
 
 狂人とシェアしているベッドルーム（逆光）
 ルームメイトといろいろあって、彼女のことを狂人と呼んでいる（心の中で）のですが、狂人はとてもきれい好きです。汚いほうが私のゾーンです。
 
-![https://cdn-ak.f.st-hatena.com/images/fotolife/m/mtgts9320/20180923/20180923072452.jpg](https://cdn-ak.f.st-hatena.com/images/fotolife/m/mtgts9320/20180923/20180923072452.jpg)
+![6](/assets/blog/posts/大学と寮の紹介/6.jpg)
 
 ハンモックエリアとか外にあっていい感じです。
 いい感じなんですけど、三半規管が死んでいる私にはハンモックはハイレベルな乗り物（？）でした、かなしい。
 
-![https://cdn-ak.f.st-hatena.com/images/fotolife/m/mtgts9320/20180923/20180923073815.jpg](https://cdn-ak.f.st-hatena.com/images/fotolife/m/mtgts9320/20180923/20180923073815.jpg)
+![7](/assets/blog/posts/大学と寮の紹介/7.jpg)
 
 自然が豊かでですね、、、、鹿がいます、、。
 
-![https://cdn-ak.f.st-hatena.com/images/fotolife/m/mtgts9320/20180923/20180923072320.jpg](https://cdn-ak.f.st-hatena.com/images/fotolife/m/mtgts9320/20180923/20180923072320.jpg)
+![8](/assets/blog/posts/大学と寮の紹介/8.jpg)
 
 鹿注意！
 
-![https://cdn-ak.f.st-hatena.com/images/fotolife/m/mtgts9320/20180923/20180923074347.jpg](https://cdn-ak.f.st-hatena.com/images/fotolife/m/mtgts9320/20180923/20180923074347.jpg)
+![9](/assets/blog/posts/大学と寮の紹介/9.jpg)
 
 リスはまじで野良猫のようにいる。
 日本で野良猫の写真を撮ってる外国人ってこんな気持ちなんだな、と思いながら撮ってきた写真。
 
-![https://cdn-ak.f.st-hatena.com/images/fotolife/m/mtgts9320/20180923/20180923074343.jpg](https://cdn-ak.f.st-hatena.com/images/fotolife/m/mtgts9320/20180923/20180923074343.jpg)
+![10](/assets/blog/posts/大学と寮の紹介/10.jpg)
 
 # 気候について（というか、頭痛について）
 
@@ -78,6 +78,6 @@ tags:
 
 視点を変えてアメリカが濃いのでよかったねというテンションで生きたい。
 
-![https://cdn-ak.f.st-hatena.com/images/fotolife/m/mtgts9320/20180923/20180923080436.png](https://cdn-ak.f.st-hatena.com/images/fotolife/m/mtgts9320/20180923/20180923080436.png)
+![11](/assets/blog/posts/大学と寮の紹介/11.png)
 
 以上、どういうところに来たかの説明でした

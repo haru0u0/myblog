@@ -13,14 +13,14 @@ tags:
 
 もうすっかり冬みたいな気候で、空が澄んできて、いいかんじ
 
-![https://cdn-ak.f.st-hatena.com/images/fotolife/m/mtgts9320/20181025/20181025100851.jpg](https://cdn-ak.f.st-hatena.com/images/fotolife/m/mtgts9320/20181025/20181025100851.jpg)
+![1](/assets/blog/posts/おさんぽ２/1.jpg)
 
-![https://cdn-ak.f.st-hatena.com/images/fotolife/m/mtgts9320/20181025/20181025101639.jpg](https://cdn-ak.f.st-hatena.com/images/fotolife/m/mtgts9320/20181025/20181025101639.jpg)
+![2](/assets/blog/posts/おさんぽ２/2.jpg)
 
 途中にかわいい植物もあるし、いいかんじ
 
-![https://cdn-ak.f.st-hatena.com/images/fotolife/m/mtgts9320/20181025/20181025100828.jpg](https://cdn-ak.f.st-hatena.com/images/fotolife/m/mtgts9320/20181025/20181025100828.jpg)
+![3](/assets/blog/posts/おさんぽ２/3.jpg)
 
 リスにもあえるし、いいかんじ
 
-![https://cdn-ak.f.st-hatena.com/images/fotolife/m/mtgts9320/20181025/20181025100920.jpg](https://cdn-ak.f.st-hatena.com/images/fotolife/m/mtgts9320/20181025/20181025100920.jpg)
+![4](/assets/blog/posts/おさんぽ２/4.jpg)

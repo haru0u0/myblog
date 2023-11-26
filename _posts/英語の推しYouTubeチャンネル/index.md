@@ -5,7 +5,7 @@ emoji: "❣"
 ogImage:
   url: '/assets/blog/preview/cover.jpg'
 tags:
-  - 英語
+  - アメリカ交換留学
 ---
 
 英語学習の二大王は「TED」と「海外ドラマ」な感じがするけど、TEDはおもしろいけどつまらんし、海外ドラマは長くて飽きる、個人的にはyoutubeがめちゃおすすめです。ドラマよりも日常英会話だし、コメント欄ではやってるミームみたいのも知れるし、なによりおもしろい、たのしい、絶対TEDと海外ドラマより楽しい。（TEDと海外ドラマは悪くないです、勝手にディスってごめん）
@@ -20,7 +20,7 @@ JapanをVlogするひとたちを、J Vloggerとよぶんですけど、知っ�
 
 ## Sharmelon
 
-[https://www.youtube.com/embed/bWsmMSDhjLg](https://www.youtube.com/embed/bWsmMSDhjLg)
+https://www.youtube.com/embed/bWsmMSDhjLg
 
 日本にもう15年くらい住んでいるカナダ人Youtuberです。今は盛岡に住んでいるみたい。日本での生活についてのVlogとか、日本国内旅行Vlogとか、、、。わたしのいち推し。この子の英語が好きすぎて、この子の話す英語がきれいすぎて、この子の英語に惚れたことが私の英語学習のきっかけであり、いままでずっとつづくモチベーション、、、愛、、。
 
@@ -28,13 +28,13 @@ JapanをVlogするひとたちを、J Vloggerとよぶんですけど、知っ�
 
 ## Abroad in Japan
 
-[https://www.youtube.com/embed/iaKcXpr0tUU](https://www.youtube.com/embed/iaKcXpr0tUU)
+https://www.youtube.com/embed/iaKcXpr0tUU
 
 仙台かどっかそのへんに住んでいるイギリス人Youtuber。めちゃBritishアクセントで、Britishなジョーク（？）を言うので、結構難しい、けど、面白い。去年はJourney across Japanと銘打って日本を自転車で縦断していて、（始まる前は「毎日更新します！」とか言ってたのに5日目くらいから更新が途絶えがちになって、コメント欄に生存確認コメントがあふれたりもしていたけど、ちゃんと完走していた、えらい）おもしろいので、みるとよいと思います。
 
 ## Taylor R
 
-[https://www.youtube.com/embed/QYl8Q1udjt0](https://www.youtube.com/embed/QYl8Q1udjt0)
+https://www.youtube.com/embed/QYl8Q1udjt0
 
 この子は正確にいうと元J Vlogger... 　いや、正確に言うと、もともとJ Vloggerではないかも、、。前に日本に住んでいて、今は結婚して香港に住んでいるカナダ人の女の子。日本ではモデルの仕事とかをしていただけあって、かわいい（これで、30超えてるんだよ、信じられん）。
 
@@ -44,25 +44,25 @@ JapanをVlogするひとたちを、J Vloggerとよぶんですけど、知っ�
 
 ## Alix Traeger
 
-[https://www.youtube.com/embed/bBmxOVyp8mw](https://www.youtube.com/embed/bBmxOVyp8mw)
+https://www.youtube.com/embed/bBmxOVyp8mw
 
 バズフィードのTastyというチャンネルがあるんですけど、（日本版もあるよね？それのアメリカ版）そこで働いていた（る？）アメリカ人Youtuber。太陽のような女の子ですね、、、という点にあこがれるので好きです。本当に太陽、笑顔がすごい、西海岸！！！！！！！！！！！カリフォルニア！！！！ってかんじ。歩くカリフォルニア。
 
 ## mayuko
 
-[https://www.youtube.com/embed/tpeK8-AoL-A](https://www.youtube.com/embed/tpeK8-AoL-A)
+https://www.youtube.com/embed/tpeK8-AoL-A
 
 まゆこさん。なんか温度がゆるゆるぬるぬるですきだし、声も好き！！でも、内容はtech系がおおいので、ITとか興味ない人はぜんぜん興味ないかも。
 
 ## bill wurtz
 
-[https://www.youtube.com/embed/Mh5LY4Mz15o](https://www.youtube.com/embed/Mh5LY4Mz15o)
+https://www.youtube.com/embed/Mh5LY4Mz15o
 
 おもしろい。
 
 ## Mel Datugan
 
-[https://www.youtube.com/embed/yfny8cuuQ04](https://www.youtube.com/embed/yfny8cuuQ04)
+https://www.youtube.com/embed/yfny8cuuQ04
 
 大大大好きなチャンネル！二番目のいち推し！！！！！！家族チャンネルなんですけど、かわいい。ママ（メル）、パパ（シェーン）、おにいちゃん（ルーカ）、おとうと（ジュリアン）。こどもがとにかくかわいいし、親も仲良しで幸せな気持ちになる、すき。
 
@@ -71,14 +71,14 @@ JapanをVlogするひとたちを、J Vloggerとよぶんですけど、知っ�
 
 ## Worth It
 
-[https://www.youtube.com/embed/bcdJgjNDsto](https://www.youtube.com/embed/bcdJgjNDsto)
+https://www.youtube.com/embed/bcdJgjNDsto
 
 これはチャンネルではなくシリーズなんですが、、、。ひとつのテーマに沿って、安いやつ～普通のやつ～高いやつを食べ比べて、どれがすき～？って食レポしていくやつ（説明が下手）。たとえば、上に貼ったやつだと、３つのお店にピザを食べに行くんですけど、価格がそれぞれ、2ドル（200円）、13ドル（1300円）、2,000ドル（200,000円）と、安～高なわけですよ、そういうやつ（説明が下手）。
 でもまじで全部おいしそ～だし飯テロなのでたのしい、あと頭おかしいくらい高いフライドチキンとかピザとか、気になるでしょ？？？？そういうのがおもしろい。あと食文化も知れるし、アメリカ旅行行ったらここのごはん食べに行きたいなあ！とか、たのしい。あとこのチャンネルに出てるおにいさんたちもすきだから、すき。
 
 ## Cut
 
-[https://www.youtube.com/embed/TWIdF13SZ8g](https://www.youtube.com/embed/TWIdF13SZ8g)
+https://www.youtube.com/embed/TWIdF13SZ8g
 
 なんだろう、、社会派、、？なのかな、、？（笑）日本じゃ絶対ないな、、、っていうトピックがめちゃ多い、超超超面白い。上に貼ったのは、知らない人の信条（宗教）を当てるやつ。あとは、こどもが自分の親にどうやって処女喪失したか話すとか（笑）、収入当てとか、目隠ししてキスして誰がベストなキスをしたか判定するとか（笑）、誰がドラックやってるか当てるとか（笑）、かとおもったら、子どもがアルツハイマーのおばあちゃんとおはなしするとか、あなたはracistですか？とかいうトピックもってきたり。すごいおもしろいの、、（笑）
 
@@ -86,7 +86,7 @@ JapanをVlogするひとたちを、J Vloggerとよぶんですけど、知っ�
 
 ## Jubilee
 
-[https://www.youtube.com/embed/G0SpzIIHEaE](https://www.youtube.com/embed/G0SpzIIHEaE)
+https://www.youtube.com/embed/G0SpzIIHEaE
 
 ここもちょっとCUTっぽいけど、ダントツに真面目。わたしはcutのほうが好きだけど、ときどきみる。不法移民とトランプ支持者を対談させてみたり、無神論者とクリスチャンをあつめてこのなかで無神論者は誰だ！当てゲームさせてみたり、結構攻めてておもしろい。
 

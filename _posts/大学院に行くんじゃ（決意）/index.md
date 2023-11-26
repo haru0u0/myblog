@@ -5,7 +5,7 @@ emoji: "💪🏼"
 ogImage:
   url: '/assets/blog/preview/cover.jpg'
 tags:
-  - イギリス大学院留学
+  - イギリス大学院
 ---
 
 交換留学を経て、「海外で学位をとってみた～～～～～い」となりました。

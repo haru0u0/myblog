@@ -5,7 +5,7 @@ emoji: "☑"
 ogImage:
   url: '/assets/blog/preview/cover.jpg'
 tags:
-  - イギリス大学院留学 
+  - イギリス大学院
 ---
 
 - GREを申し込んであります、勉強はしていません、8/29に受けます、がんばれ～！
