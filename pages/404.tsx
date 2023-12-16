@@ -8,6 +8,7 @@ import Head from 'next/head'
 import { CMS_NAME } from '../lib/constants'
 import Post from '../interfaces/post'
 import Twemoji from '../lib/Twemoji'
+import { Button } from 'flowbite-react';
 
 export default function About() {
   return (
@@ -18,7 +19,8 @@ export default function About() {
         </Head>
         <Container>
           <Header />
-		  お探しのページが見つかりませんでした。ホームへ戻る。
+		  お探しのページが見つかりませんでした。
+		  <Button color="pink">ホームへ戻る</Button>
         </Container>
       </Layout>
     </>

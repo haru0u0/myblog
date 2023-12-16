@@ -6,7 +6,7 @@ import { SiZenn } from "react-icons/si";
 const Myfooter = () => {
   return (
     <Footer container>
-        <div className="grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
+        <div className="grid w-full sm:flex sm:justify-between md:flex md:grid-cols-1">
         <div className="w-full flex items-center justify-between">
           <Footer.Copyright href="#" by="sen-haru" year={2023} />
           <div className="mt-4 flex space-x-6">

@@ -1,20 +1,27 @@
 import Myfooter from './myfooter'
 import Meta from './meta'
-import { M_PLUS_Rounded_1c } from "next/font/google";
+import { IBM_Plex_Sans_JP, IBM_Plex_Sans } from "next/font/google";
 
 type Props = {
   preview?: boolean
   children: React.ReactNode
 }
 
-const  MPLUSRounded1cFont =   M_PLUS_Rounded_1c({ weight: "400", subsets: ["latin"] });
+const IBMPlexSansJP = IBM_Plex_Sans_JP({
+  weight: '400',
+  subsets: ['latin'],
+});
+const IBMPlexSans = IBM_Plex_Sans({
+  weight: '400',
+  subsets: ['latin'],
+});
 
 const Layout = ({ preview, children }: Props) => {
   return (
     <>
       <Meta />
-      <div className="min-h-screen">
-        <main className={MPLUSRounded1cFont.className}>{children}</main>
+      <div className="min-h-screen bg-rose-200">
+        <main className={`${IBMPlexSansJP.className} ${IBMPlexSans.className}`}>{children}</main>
       </div>
       <Myfooter />
     </>

@@ -26,9 +26,13 @@ module.exports = {
         '8xl': '6.25rem',
       },
       boxShadow: {
-        sm: '0 5px 10px rgba(0, 0, 0, 0.12)',
-        md: '0 8px 30px rgba(0, 0, 0, 0.12)',
+        sm: '5px 5px 0px 0px rgba(0, 0, 0, 1)',
+        md: '10px 10px 0px 0px rgba(0, 0, 0, 1)',
       },
+      dropShadow: {
+        'neolg': '0 10px 10px rgba(0, 0, 0, 1)',
+        'neomd': '0 5px 5px rgba(0, 0, 0, 1)',
+	  },
     },
   },
   plugins: [
