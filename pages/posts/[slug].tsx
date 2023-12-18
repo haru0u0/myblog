@@ -12,7 +12,6 @@ import { CMS_NAME } from '../../lib/constants'
 import markdownToHtml from '../../lib/markdownToHtml'
 import type PostType from '../../interfaces/post'
 import {useEffect} from "react";
-import initTwitterScriptInner from "zenn-embed-elements/lib/init-twitter-script-inner";
 
 type Props = {
   post: PostType
@@ -31,11 +30,6 @@ import('zenn-embed-elements');
 }, []);
   return (
     <Layout preview={preview}>
-<script
-dangerouslySetInnerHTML={{
-__html: initTwitterScriptInner
-}}
-/>
       <Container>
         <Header />
         {router.isFallback ? (
@@ -47,7 +41,7 @@ __html: initTwitterScriptInner
                 <title>{title}</title>
                 <meta property="og:image" content={post.ogImage.url} />
               </Head>
-<div / >
+              <div />
               <PostHeader
                 title={post.title}
                 emoji={post.emoji}

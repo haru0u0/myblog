@@ -1,9 +1,20 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./node_modules/flowbite-react/**/*.js', './components/**/*.tsx', './pages/**/*.tsx'],
+  content: ['./node_modules/flowbite-react/**/*.js', './node_modules/flowbite/**/*.js', './components/**/*.tsx', './pages/**/*.tsx'],
   theme: {
     extend: {
+	  fontFamily: {
+		IBMjp: ['var(--font-IBMjp)'],
+		IBM: ['var(--font-IBM)'],
+		DELA: ['var(--font-DELA)'],
+	  },
       colors: {
+		mypink: '#F9BED4',
+		myyellow: '#FFF59F',
+		mysky: '#A6FAFF',
+		myblue: '#64C8CF',
+		mygreen: '#5FC1A4',
+		mypurple: '#A8A6FF',
         'accent-1': '#FAFAFA',
         'accent-2': '#EAEAEA',
         'accent-7': '#333',

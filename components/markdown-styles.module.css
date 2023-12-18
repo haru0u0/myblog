@@ -1,7 +1,7 @@
 .markdown {
   @apply text-lg leading-relaxed;
 }
-
+i
 .markdown p,
 .markdown ul,
 .markdown ol,
@@ -9,6 +9,9 @@
   @apply my-6;
 }
 
+.markdown h1 {
+  @apply text-3xl mt-12 mb-4 leading-snug;
+}
 .markdown h2 {
   @apply text-3xl mt-12 mb-4 leading-snug;
 }

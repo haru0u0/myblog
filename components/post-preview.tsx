@@ -18,7 +18,7 @@ const PostPreview = ({
   tags
 }: Props) => {
   return (
-    <div className="transition ease-in-out delay-150 hover:translate-y-5 hover:shadow-[0px_0px_0px_rgba(0,0,0,0)] grid grid-cols-1 place-items-center w-full max-w-sm bg-yellow-100 border-4 border-black shadow-md rounded-lg dark:bg-gray-800 dark:border-gray-700 pt-5 pb-4">
+    <div className="transition ease-in-out delay-150 hover:translate-y-5 hover:shadow-[0px_0px_0px_rgba(0,0,0,0)] grid grid-cols-1 place-items-center w-full max-w-sm bg-myyellow border-4 border-black shadow-md rounded-lg dark:bg-gray-800 dark:border-gray-700 pt-5 pb-4">
       <div className="w-24 h-24 mb-3">
         <CoverImage slug={slug} title={title} emoji={emoji} />
       </div>
@@ -33,10 +33,10 @@ const PostPreview = ({
       </h3>
       <ul className="flex">
         {
-          tags.map((tag) => <li className="font-bold mb-1 bg-pink-100 text-pink-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-pink-900 dark:text-pink-300">{tag}</li>)
+          tags.map((tag) => <li className="font-bold mb-1 bg-mysky text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded">{tag}</li>)
         }
       </ul>
-      <div className="text-sm text-gray-500 dark:text-gray-400">
+      <div className="text-sm text-black">
         <DateFormatter dateString={date} />
       </div>
     </div>
