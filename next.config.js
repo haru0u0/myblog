@@ -4,6 +4,7 @@ const CopyFilePlugin = require('copy-webpack-plugin')
 const WriteFilePlugin = require('write-file-webpack-plugin')
 
 module.exports = {
+  trailingSlash: true,
   output: 'export',
   distDir: 'out',
   images: {
