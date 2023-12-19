@@ -101,7 +101,7 @@
 
 .znc h1,
 .znc h2 {
-	@apply border-y-2 border-black font-bold;
+	@apply border-b-2 border-black p-1 font-bold text-lg md:text-2xl before:content-['#'] before:text-myblue;
     margin-top: 2.3em;
     margin-bottom: .5em
 }
@@ -110,6 +110,7 @@
 .znc h4,
 .znc h5,
 .znc h6 {
+	@apply font-bold text-lg text-lg md:text-2xl before:content-['##'] before:text-myblue;
     margin-top: 2.25em;
     margin-bottom: .5em
 }
@@ -117,54 +118,7 @@
 .znc h1 {
     padding: .2em;
     margin-bottom: 1.1rem;
-    font-size: 1.7em;
     position: relative;
-}
-
-.znc h2 {
-    font-size: 1.5em
-}
-
-.znc h3 {
-    font-size: 1.3em
-}
-
-.znc h4 {
-    font-size: 1.1em
-}
-
-.znc h5 {
-    font-size: 1em
-}
-
-.znc h6 {
-    font-size: .9em
-}
-
-@media screen and (max-width: 576px) {
-    .znc h1 {
-        font-size: 1.6em
-    }
-
-    .znc h2 {
-        font-size: 1.4em
-    }
-
-    .znc h3 {
-        font-size: 1.2em
-    }
-
-    .znc h4 {
-        font-size: 1.1em
-    }
-
-    .znc h5 {
-        font-size: 1em
-    }
-
-    .znc h6 {
-        font-size: .85em
-    }
 }
 
 .znc hr {
