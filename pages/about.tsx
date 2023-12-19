@@ -14,7 +14,7 @@ export default function About() {
     <>
       <Layout>
         <Head>
-          <title>{`senharu blog`}</title>
+          <title>{`haru blog`}</title>
         </Head>
         <Container>
           <Header />

@@ -23,7 +23,7 @@ export default function Index({ allPosts }: Props) {
 	  <Container>
 	  <Header />
         <Head>
-          <title>{`senharu blog`}</title>
+          <title>{`haru blog`}</title>
         </Head>
 		<div className="mb-8 text-lg font-IBMjp font-bold tracking-tighter leading-tight tag flex justify-center">
 		# 最近の投稿 </div>

@@ -31,11 +31,11 @@ const Header = () => {
         </Dropdown>
         </div>
 		<div className="hover:bg-mysky">
-		<Navbar.Link className="text-black border-4 border-y-2 border-black md:p-2 hover:bg-mysky" href="/tags/イギリスお仕事">おしごと</Navbar.Link></div>
+		<Navbar.Link as={Link} prefetch={false} className="text-black border-4 border-y-2 border-black md:p-2 hover:bg-mysky" href="/tags/イギリスお仕事">おしごと</Navbar.Link></div>
 		<div className="hover:bg-mysky">
-        <Navbar.Link className="text-black border-4 border-y-2 border-black md:border-0 md:p-2 hover:bg-mysky" href="/tags/つぶやき">つぶやき</Navbar.Link></div>
+        <Navbar.Link as={Link} prefetch={false} className="text-black border-4 border-y-2 border-black md:border-0 md:p-2 hover:bg-mysky" href="/tags/つぶやき">つぶやき</Navbar.Link></div>
 		<div className="hover:bg-mysky">
-        <Navbar.Link className="text-black border-4 border-y-2 border-b-4 border-black md:p-2 hover:bg-mysky" href="/about">わたし</Navbar.Link></div>
+        <Navbar.Link as={Link} prefetch={false} className="text-black border-4 border-y-2 border-b-4 border-black md:p-2 hover:bg-mysky" href="/about">わたし</Navbar.Link></div>
         </Navbar.Collapse>
         </Navbar>
   </div>
