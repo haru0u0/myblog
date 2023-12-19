@@ -8,33 +8,26 @@ tags:
   - イギリス大学院
 ---
 
-# ブリストル大学生活でよくつかいそうな建物など
+## ブリストル大学生活でよくつかいそうな建物など
 
 ![Untitled](/assets/blog/posts/めちゃローカル話：ブリストル大学の住むとこ選び/Untitled.png)
 
-1：私の学部の校舎（School of Education）
+1. 私の学部の校舎（School of Education）
+2. 24hやってる図書館（Arts and Social Sciences Library）
+3. おしゃれな図書館（Wills Memorial Library）
+4. 国際交流センターが入っている、学生センターみたいな建物（Senate House）
+5. スーパーマーケット
+6. スーパーマーケット
+7. スーパーマーケット
+8. 駅（遠くに観光等に行くときに使う、Bristol Temple Meads）
+9. バス乗り場（遠くに観光等に行くときに使う、Bristol Coach Station）
+10. アジアンスーパー（というか、日本韓国のものも置いている中華スーパー）
+11. アジアンスーパー（というか、日本韓国のものも置いている中華スーパー）
+12. アジアンスーパー（というか、日本韓国のものも置いている中華スーパー）
+- ピンクの円 : シティセンター
+- 紫の道 : 超急な坂。特に右はあり得ないほど急。
 
-2：24hやってる図書館（Arts and Social Sciences Library）
-
-3：おしゃれな図書館（Wills Memorial Library）
-
-4：国際交流センターが入っている、学生センターみたいな建物（Senate House）
-
-5~7：スーパーマーケット
-
-8：駅（遠くに観光等に行くときに使う、
-
-Bristol Temple Meads）
-
-9：バス乗り場（遠くに観光等に行くときに使う、Bristol Coach Station）
-
-10-12：アジアンスーパー（というか、日本韓国のものも置いている中華スーパー）
-
-ピンクの円：シティセンター
-
-紫の道：急な坂（特に右はあり得ないほど急）
-
-# 注意点
+## 注意点
 
 - 遠くの寮（Print Hallなど）に住むと、1年間特定のバスがタダで乗れるバスパスがもらえる。£60払って、市内全域のバスパスを買うこともできる（これも遠くの寮に住んでいる人だけ特典っぽい）私は、無料のバスパスで指定されている路線が不便なので追加で£60払って市内全域パスを買いました。
 - バスは遅れる。ときどき消える。（スケジュールされているのに来ないとか）
@@ -48,9 +41,10 @@ Bristol Temple Meads）
 
 [iQ Bristol in Bristol | iQ Student Accommodation](https://www.iqstudentaccommodation.com/bristol/iq-bristol?year=2023-24&sorting=availability)
 
-# 私の個人的な感想
+## 私の個人的な感想
 
-- Print Hall / Studioに住んでいます。
+Print Hall / Studioに住んでいます。
+
 - いいところ
     - 新しいのできれい
     - Studioなのでひとりで気楽

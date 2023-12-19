@@ -24,9 +24,8 @@ export default function Index({ posts, tag }: Props) {
           </Head>
           <Container>
           <Header />
-      <h2 className="mb-8 text-5xl md:text-7xl font-bold tracking-tighter leading-tight tag">
-        {tag}
-      </h2>
+      <div className="mb-8 text-lg font-IBMjp font-bold tracking-tighter leading-tight tag flex justify-center">
+        # {tag} </div>
             <MoreStories posts={posts} />
           </Container>
         </Layout>

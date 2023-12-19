@@ -20,11 +20,13 @@ export default function Index({ allPosts }: Props) {
   return (
   <>
       <Layout>
+	  <Container>
 	  <Header />
         <Head>
           <title>{`senharu blog`}</title>
         </Head>
-        <Container>
+		<div className="mb-8 text-lg font-IBMjp font-bold tracking-tighter leading-tight tag flex justify-center">
+		# 最近の投稿 </div>
 		<div className="m-8">
           {morePosts.length > 0 && <MoreStories posts={morePosts} />}
 		</div>

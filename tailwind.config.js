@@ -7,6 +7,8 @@ module.exports = {
 		IBMjp: ['var(--font-IBMjp)'],
 		IBM: ['var(--font-IBM)'],
 		DELA: ['var(--font-DELA)'],
+		RAMPART: ['var(--font-RAMPART)'],
+		DOT: ['var(--font-DOT)'],
 	  },
       colors: {
 		mypink: '#F9BED4',

@@ -97,6 +97,7 @@
 
 .znc h1,
 .znc h2 {
+	@apply border-y-2 border-black font-bold;
     margin-top: 2.3em;
     margin-bottom: .5em
 }
@@ -110,13 +111,10 @@
 }
 
 .znc h1 {
-    @apply font-DELA;
     padding: .2em;
     margin-bottom: 1.1rem;
     font-size: 1.7em;
     position: relative;
-    border-top: solid 3px rgba(0, 0, 0, 1);
-	border-bottom: solid 3px rgba(0, 0, 0, 1);
 }
 
 .znc h2 {
