@@ -61,8 +61,8 @@
 }
 
 .znc ul>li::marker {
+	@apply text-black;
     font-size: 1.1em;
-    color: #000000;
 }
 
 .znc ol {
@@ -75,7 +75,7 @@
 }
 
 .znc ol>li::marker {
-    color: #000000;
+    @apply text-black;
     font-weight: 600;
     letter-spacing: -0.05em
 }
@@ -523,12 +523,12 @@
 }
 
 .znc .msg {
+	@apply bg-myblue border-2 border-black;
     position: relative;
     margin: 1.5rem 0;
     padding: 21px 15px 21px 45px;
     border-radius: 6px;
-    background: #fff6e4;
-    color: rgba(0, 0, 0, .65);
+    color: rgba(0, 0, 0, 1);
     font-size: .94em;
     line-height: 1.6
 }
@@ -548,7 +548,11 @@
     color: #fff;
     background: #ffb84c;
     font-weight: 700;
-    border-radius: 50%
+    border-radius: 50%;
+}
+
+.znc .msg-symbol{
+	display: none;
 }
 
 .znc .msg>* {

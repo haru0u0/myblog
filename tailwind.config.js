@@ -3,20 +3,20 @@ module.exports = {
   content: ['./node_modules/flowbite-react/**/*.js', './node_modules/flowbite/**/*.js', './components/**/*.tsx', './pages/**/*.tsx'],
   theme: {
     extend: {
-	  fontFamily: {
-		IBMjp: ['var(--font-IBMjp)'],
-		IBM: ['var(--font-IBM)'],
-		DELA: ['var(--font-DELA)'],
-		RAMPART: ['var(--font-RAMPART)'],
-		DOT: ['var(--font-DOT)'],
-	  },
+      fontFamily: {
+        IBMjp: ['var(--font-IBMjp)'],
+        IBM: ['var(--font-IBM)'],
+        DELA: ['var(--font-DELA)'],
+        RAMPART: ['var(--font-RAMPART)'],
+        DOT: ['var(--font-DOT)'],
+      },
       colors: {
-		mypink: '#F9BED4',
-		myyellow: '#FFF59F',
-		mysky: '#A6FAFF',
-		myblue: '#64C8CF',
-		mygreen: '#5FC1A4',
-		mypurple: '#A8A6FF',
+        mypink: '#b5f4ff',
+        myyellow: '#ffff9b',
+        mysky: '#fabfff',
+        myblue: '#fabfff',
+        mygreen: '#5FC1A4',
+        mypurple: '#A8A6FF',
         'accent-1': '#FAFAFA',
         'accent-2': '#EAEAEA',
         'accent-7': '#333',
@@ -45,10 +45,11 @@ module.exports = {
       dropShadow: {
         'neolg': '0 10px 10px rgba(0, 0, 0, 1)',
         'neomd': '0 5px 5px rgba(0, 0, 0, 1)',
-	  },
+      },
     },
   },
   plugins: [
-	  require("flowbite/plugin")
+    require("flowbite/plugin"),
+    require("daisyui"),
   ],
 }

@@ -7,39 +7,49 @@ import Script from 'next/script'
 
 const Header = () => {
   return (
-  <>
-        <div className="font-IBM hidden md:flex justify-center p-6 text-5xl md:text-8xl font-bold tracking-tighter leading-tight md:pr-8">
-		<Link href="/">haru blog.</Link>
-		</div>
-  <div className="bg-transparent md:flex md:justify-center">
-      <Navbar className="font-IBMjp mb-6 px-0 bg-trasparent md:border-y-4 md:border-black border-0">
-	    <Navbar.Brand href="/" className="md:hidden">
-        <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">haru blog.</span>
-      </Navbar.Brand>
-        <Navbar.Toggle className="text-black hover:ring-0 hover:bg-transparent focus:ring-0" />
-        <Navbar.Collapse className="shadow-md md:shadow-none">
-        <div className="block py-2 pr-4 pl-3 border-4 border-y-2 border-t-4 border-black text-black hover:bg-mysky md:border-0">
-         <Dropdown
-		 className = ""
-        arrowIcon={true}
-        inline
-        label={"留学"}>
-		<div className="hover:bg-myyellow">
-        <Dropdown.Item className="border-b-2 border-black text-black hover:bg-myyellow"><Link href ="/tags/イギリス42"><Twemoji emoji="🇬🇧" /> 42 London</Link></Dropdown.Item></div>
-                <Dropdown.Item className="border-b-2 border-black text-black hover:bg-myyellow"><Link href ="/tags/イギリス大学院"><Twemoji emoji="🇬🇧" /> 大学院</Link></Dropdown.Item>
-                <Dropdown.Item className="text-black hover:bg-myyellow"><Link href="/tags/アメリカ交換留学"><Twemoji emoji="🇺🇸" />交換留学</Link></Dropdown.Item>
-        </Dropdown>
+    <>
+      <div className="font-IBM hidden md:flex justify-center p-6 text-5xl md:text-8xl font-bold tracking-tighter leading-tight md:pr-8">
+        <Link href="/">haru blog.</Link>
+      </div>
+      <div className="navbar bg-transparent flex justify-center">
+        <div>
+          <div className="flex justify-center">
+            <Link href="/" className="btn btn-ghost text-xl font-IBM md:hidden hover:bg-transparent">haru blog.</Link>
+          </div>
+          <div className="dropdown dropdown-end dropdown-bottom flex justify-end">
+            <div tabIndex={0} role="button" className="btn btn-ghost md:hidden hover:bg-transparent flex justify-end">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+            </div>
+            <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow-sm bg-white rounded-box w-52 border-2 border-black">
+              <li>
+                <a>Parent</a>
+                <ul className="p-2">
+                  <li><a>Submenu 1</a></li>
+                  <li><a>Submenu 2</a></li>
+                </ul>
+              </li>
+              <li className="hover:bg-myyellow"><Link href="">お仕事</Link></li>
+              <li className="hover:bg-myyellow"><Link href="">つぶやき</Link></li>
+            </ul>
+          </div>
         </div>
-		<div className="hover:bg-mysky">
-		<Navbar.Link as={Link} prefetch={false} className="text-black border-4 border-y-2 border-black md:p-2 hover:bg-mysky" href="/tags/イギリスお仕事">おしごと</Navbar.Link></div>
-		<div className="hover:bg-mysky">
-        <Navbar.Link as={Link} prefetch={false} className="text-black border-4 border-y-2 border-black md:border-0 md:p-2 hover:bg-mysky" href="/tags/つぶやき">つぶやき</Navbar.Link></div>
-		<div className="hover:bg-mysky">
-        <Navbar.Link as={Link} prefetch={false} className="text-black border-4 border-y-2 border-b-4 border-black md:p-2 hover:bg-mysky" href="/about">わたし</Navbar.Link></div>
-        </Navbar.Collapse>
-        </Navbar>
-  </div>
-  </>
+        <div className="navbar-center hidden border-2 border-black shadow-sm bg-white p-0 mb-4 md:flex">
+          <ul className="menu menu-horizontal p-0">
+            <li className="hover:bg-myblue focus:bg-transparent border-r-2 border-black">
+              <details>
+                <summary className="hover:bg-transparent focus:bg-transparent">Parent</summary>
+                <ul className="p-2">
+                  <li><a>Submenu 1</a></li>
+                  <li><a>Submenu 2</a></li>
+                </ul>
+              </details>
+            </li>
+            <li className="hover:bg-myblue border-r-2 border-black"><a className="hover:bg-transparent">Item 1</a></li>
+            <li className="hover:bg-myblue border-r-2 border-black"><a className="hover:bg-transparent">Item 1</a></li>
+          </ul>
+        </div>
+      </div>
+    </>
   );
 }
 
