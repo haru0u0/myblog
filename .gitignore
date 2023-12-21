@@ -36,4 +36,4 @@ yarn-error.log*
 next-env.d.ts
 
 # pics
-/assets/blog/posts/*
+/public/assets/blog/posts/*
