@@ -3,6 +3,7 @@ import MoreStories from '../components/more-stories'
 import Intro from '../components/intro'
 import Layout from '../components/layout'
 import Header from '../components/header'
+import Myfooter from '../components/myfooter'
 import { getAllPosts, getAllTags, getPostsByTag } from '../lib/api'
 import Head from 'next/head'
 import { CMS_NAME } from '../lib/constants'
@@ -26,6 +27,7 @@ export default function About() {
           <div>
             こんにちは。好きな食べ物はチーズです。
           </div>
+          <Myfooter />
         </Container>
       </Layout>
     </>

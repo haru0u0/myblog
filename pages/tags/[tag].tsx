@@ -1,13 +1,14 @@
 import { useRouter } from 'next/router'
 import ErrorPage from 'next/error'
 import { CMS_NAME } from '../../lib/constants'
-import {getAllTags, getPostsByTag} from "../../lib/api";
+import { getAllTags, getPostsByTag } from "../../lib/api";
 import Post from "../../interfaces/post";
 import Head from "next/head";
 import Header from '../../components/header'
 import Layout from "../../components/layout";
 import Container from "../../components/container";
 import MoreStories from "../../components/more-stories";
+import Myfooter from '../../components/myfooter';
 
 
 type Props = {
@@ -17,19 +18,21 @@ type Props = {
 
 export default function Index({ posts, tag }: Props) {
   return (
-      <>
-        <Layout>
-          <Head>
-            <title>{tag}</title>
-          </Head>
-          <Container>
+    <>
+      <Layout>
+        <Head>
+          <title>{tag}</title>
+        </Head>
+        <Container>
           <Header />
-      <div className="mb-8 text-lg font-IBMjp font-bold tracking-tighter leading-tight tag flex justify-center">
-        # {tag} </div>
-            <MoreStories posts={posts} />
-          </Container>
-        </Layout>
-      </>
+          <div className="mb-8 text-lg font-IBMjp font-bold tracking-tighter leading-tight tag flex justify-center">
+            # {tag}
+          </div>
+          <MoreStories posts={posts} />
+          <Myfooter />
+        </Container>
+      </Layout>
+    </>
   )
 }
 

@@ -40,7 +40,6 @@ const Layout = ({ preview, children }: Props) => {
       <Meta />
       <div className="min-h-screen bg-mypink" data-theme="mytheme">
         <main className={`${Dot.variable} ${RampartOne.variable} ${DelaGothicOne.variable} ${IBMPlexSansJP.variable} ${IBMPlexSans.variable}`}>{children}</main>
-        <Myfooter />
       </div>
     </>
   )
