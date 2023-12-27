@@ -9,12 +9,12 @@ const Myfooter = () => {
     <div className="font-IBM md:flex md:items-center md:justify-between w-full p-6 grid bg-transparent text-black sm:flex sm:justify-between md:grid-cols-1">
       <div className="w-full flex items-center justify-between font-IBM">
         <div className="font-IBM text-black">
-          <RiCopyrightLine className="inline" />&nbsp;2023 harusen
+          <RiCopyrightLine className="inline" />&nbsp;2023 haru
         </div>
         <div className="mt-4 flex space-x-6 items-center mt-0">
           <Footer.Icon href="https://twitter.com/sen__haru" icon={BsTwitter} target="blank" className="text-black" />
-          <Footer.Icon href="https://github.com/sen-haru" icon={BsGithub} target="blank" className="text-black" />
-          <Footer.Icon href="https://zenn.dev/haruchann" icon={SiZenn} target="blank" className="text-black" />
+          {/*<Footer.Icon href="https://github.com/sen-haru" icon={BsGithub} target="blank" className="text-black" />
+          <Footer.Icon href="https://zenn.dev/haruchann" icon={SiZenn} target="blank" className="text-black" />*/}
         </div>
       </div>
     </div>

@@ -21,14 +21,15 @@ export default function About() {
         </Head>
         <Container>
           <Header />
-          <div className="flex-grow">
+          <div className="flex-grow max-w-full">
             <h1 className="mb-8 text-lg font-IBMjp font-bold tracking-tighter leading-tight tag flex justify-center">
               # about
             </h1>
-            <div>
+            <img className="h-auto mx-auto rounded-lg max-w-xs border-2 border-black shadow-sm md:shadow-md" src="/assets/profile.png"></img>
+            <div className="my-8 font-IBMjp text-center flex justify-center">
               こんにちは！97年うまれのharuです。<br /><br />
               22年09月からイギリスで暮らしています。<br /><br />
-              好きな食べ物はチーズと納豆とズッキーニです。<br /><br />
+              好きな食べ物はチーズと納豆とズッキーニ。<br /><br />
               好きな動物はお犬です。<br /><br />
               教育とテクノロジーに関心があります。
             </div>
