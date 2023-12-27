@@ -6,7 +6,7 @@ import { RiCopyrightLine } from "react-icons/ri";
 
 const Myfooter = () => {
   return (
-    <div className="font-IBM md:flex md:items-center md:justify-between w-full p-6 grid w-full bg-transparent text-black sm:flex sm:justify-between md:flex md:grid-cols-1">
+    <div className="font-IBM md:flex md:items-center md:justify-between w-full p-6 grid bg-transparent text-black sm:flex sm:justify-between md:grid-cols-1">
       <div className="w-full flex items-center justify-between font-IBM">
         <div className="font-IBM text-black">
           <RiCopyrightLine className="inline" />&nbsp;2023 harusen

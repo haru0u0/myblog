@@ -26,10 +26,12 @@ export default function Index({ allPosts }: Props) {
         </Head>
         <Container>
           <Header />
-          <div className="mb-8 text-lg font-IBMjp font-bold tracking-tighter leading-tight tag flex justify-center">
-            # 最近の投稿
+          <div className="flex-grow">
+            <h1 className="mb-8 text-lg font-IBMjp font-bold tracking-tighter leading-tight tag flex justify-center">
+              # 最近の投稿
+            </h1>
+            {morePosts.length > 0 && <MoreStories posts={morePosts} />}
           </div>
-          {morePosts.length > 0 && <MoreStories posts={morePosts} />}
           <Myfooter />
         </Container>
       </Layout>

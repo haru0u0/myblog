@@ -38,8 +38,10 @@ const Layout = ({ preview, children }: Props) => {
   return (
     <>
       <Meta />
-      <div className="min-h-screen bg-mypink" data-theme="mytheme">
-        <main className={`${Dot.variable} ${RampartOne.variable} ${DelaGothicOne.variable} ${IBMPlexSansJP.variable} ${IBMPlexSans.variable}`}>{children}</main>
+      <div className="bg-mypink">
+        <div className="flex flex-col min-h-screen">
+          <main className={`${Dot.variable} ${RampartOne.variable} ${DelaGothicOne.variable} ${IBMPlexSansJP.variable} ${IBMPlexSans.variable}`}>{children}</main>
+        </div>
       </div>
     </>
   )

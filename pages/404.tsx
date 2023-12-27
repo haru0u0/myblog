@@ -20,9 +20,14 @@ export default function About() {
         </Head>
         <Container>
           <Header />
-          <div className="mb-8 text-lg font-IBMjp tracking-tighter leading-tight flex justify-center">お探しのページが見つかりませんでした。</div>
-          <div className="flex justify-center">
-            <Button href="/" className="transition ease-in-out delay-150 hover:translate-y-2 hover:shadow-[0px_0px_0px_rgba(0,0,0,0)] focus:ring-0 bg-white text-black border-2 border-black shadow-sm">ホームへ戻る</Button></div>
+          <div className="flex-grow">
+            <h1 className="mb-8 text-lg font-IBMjp font-bold tracking-tighter leading-tight tag flex justify-center">
+              <Twemoji emoji="⚠" />&nbsp;404&nbsp;<Twemoji emoji="⚠" />
+            </h1>
+            <div className="my-8 font-IBMjp tracking-tighter leading-tight flex justify-center">お探しのページが見つかりませんでした。</div>
+            <div className="flex justify-center">
+              <Button href="/" className="transition ease-in-out delay-150 hover:translate-y-2 hover:shadow-[0px_0px_0px_rgba(0,0,0,0)] focus:ring-0 bg-white text-black border-2 border-black shadow-sm">ホームへ戻る</Button></div>
+          </div>
           <Myfooter />
         </Container>
       </Layout>

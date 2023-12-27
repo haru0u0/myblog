@@ -33,26 +33,28 @@ export default function Post({ post, morePosts, preview }: Props) {
     <Layout preview={preview}>
       <Container>
         <Header />
-        {router.isFallback ? (
-          <PostTitle>Loading…</PostTitle>
-        ) : (
-          <>
-            <article className="mb-32">
-              <Head>
-                <title>{title}</title>
-                <meta property="og:image" content={post.ogImage.url} />
-              </Head>
-              <div />
-              <PostHeader
-                title={post.title}
-                emoji={post.emoji}
-                date={post.date}
-                tags={post.tags}
-              />
-              <PostBody content={post.content} />
-            </article>
-          </>
-        )}
+        <div className="flex-grow">
+          {router.isFallback ? (
+            <PostTitle>Loading…</PostTitle>
+          ) : (
+            <>
+              <article className="mb-32">
+                <Head>
+                  <title>{title}</title>
+                  <meta property="og:image" content={post.ogImage.url} />
+                </Head>
+                <div />
+                <PostHeader
+                  title={post.title}
+                  emoji={post.emoji}
+                  date={post.date}
+                  tags={post.tags}
+                />
+                <PostBody content={post.content} />
+              </article>
+            </>
+          )}
+        </div>
         <Myfooter />
       </Container>
     </Layout>

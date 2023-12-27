@@ -21,14 +21,21 @@ export default function About() {
         </Head>
         <Container>
           <Header />
-          <h2 className="mb-8 text-5xl md:text-7xl font-bold tracking-tighter leading-tight">
-            About
-          </h2>
-          <div>
-            こんにちは。好きな食べ物はチーズです。
+          <div className="flex-grow">
+            <h1 className="mb-8 text-lg font-IBMjp font-bold tracking-tighter leading-tight tag flex justify-center">
+              # about
+            </h1>
+            <div>
+              こんにちは！97年うまれのharuです。<br /><br />
+              22年09月からイギリスで暮らしています。<br /><br />
+              好きな食べ物はチーズと納豆とズッキーニです。<br /><br />
+              好きな動物はお犬です。<br /><br />
+              教育とテクノロジーに関心があります。
+            </div>
           </div>
           <Myfooter />
         </Container>
+
       </Layout>
     </>
   )
