@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import { CMS_NAME, HOME_OG_IMAGE_URL } from '../lib/constants'
 import Script from 'next/script'
+import Seo from './seo';
 
 const Meta = () => {
   return (
@@ -33,13 +34,6 @@ const Meta = () => {
       <meta name="msapplication-config" content="/favicon/browserconfig.xml" />
       <meta name="theme-color" content="#000" />
       <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
-      <meta
-        name="description"
-        content={`yeah`}
-      />
-      <meta property="og:image" content={HOME_OG_IMAGE_URL} />
-      <meta name="twitter:card" content="summary_large_image" />
-      <meta property="og:title" content={`haru blog.`} />
     </Head>
   )
 }

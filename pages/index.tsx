@@ -11,6 +11,7 @@ import Head from 'next/head'
 import { CMS_NAME } from '../lib/constants'
 import Post from '../interfaces/post'
 import Twemoji from '../lib/Twemoji'
+import Seo from '../components/seo';
 
 type Props = {
   allPosts: Post[]
@@ -21,6 +22,11 @@ export default function Index({ allPosts }: Props) {
   return (
     <>
       <Layout>
+        <Seo
+          title={`haru blog`}
+          date={'2020-05-23'}
+          slug={'home'}
+        />
         <Head>
           <title>{`haru blog`}</title>
         </Head>

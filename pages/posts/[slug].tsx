@@ -13,6 +13,7 @@ import { CMS_NAME } from '../../lib/constants'
 import markdownToHtml from '../../lib/markdownToHtml'
 import type PostType from '../../interfaces/post'
 import { useEffect } from "react";
+import Seo from '../../components/seo';
 
 type Props = {
   post: PostType
@@ -31,6 +32,11 @@ export default function Post({ post, morePosts, preview }: Props) {
   }, []);
   return (
     <Layout preview={preview}>
+      <Seo
+        title={post.title}
+        date={post.date}
+        slug={post.slug}
+      />
       <Container>
         <div className="flex-grow min-h-screen">
           <Header />
