@@ -12,7 +12,7 @@ const Myfooter = () => {
           <RiCopyrightLine className="inline" />&nbsp;2023 haru
         </div>
         <div className="mt-4 flex space-x-6 items-center mt-0">
-          <Footer.Icon href="https://twitter.com/sen__haru" icon={BsTwitter} target="blank" className="text-black" />
+          <Footer.Icon href="https://twitter.com/haru0u0_" icon={BsTwitter} target="blank" className="text-black" />
           {/*<Footer.Icon href="https://github.com/sen-haru" icon={BsGithub} target="blank" className="text-black" />
           <Footer.Icon href="https://zenn.dev/haruchann" icon={SiZenn} target="blank" className="text-black" />*/}
         </div>
