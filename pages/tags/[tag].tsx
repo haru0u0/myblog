@@ -9,7 +9,7 @@ import Layout from "../../components/layout";
 import Container from "../../components/container";
 import MoreStories from "../../components/more-stories";
 import Myfooter from '../../components/myfooter';
-
+import Seo from '../../components/seo';
 
 type Props = {
   posts: Post[],
@@ -20,6 +20,13 @@ export default function Index({ posts, tag }: Props) {
   return (
     <>
       <Layout>
+        <Seo
+          title={`${tag}の記事一覧`}
+          emoji={''}
+          date={''}
+          path={'tags/${tag}'}
+          desc={'${tag}についての記事一覧だよ～。。'}
+        />
         <Head>
           <title>{tag}</title>
         </Head>

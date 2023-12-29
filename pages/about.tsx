@@ -15,6 +15,11 @@ export default function About() {
   return (
     <>
       <Layout>
+        title={`about haru`}
+        emoji={''}
+        date={''}
+        path={'about'}
+        desc={'haruの自己紹介記事だよ～。'}
         <Head>
           <title>{`haru blog`}</title>
         </Head>

@@ -34,8 +34,10 @@ export default function Post({ post, morePosts, preview }: Props) {
     <Layout preview={preview}>
       <Seo
         title={post.title}
+        emoji={post.emoji}
         date={post.date}
-        slug={post.slug}
+        path={'posts/${post.slug}'}
+        desc={'${post.date}に投稿された、${post.tags}についての記事だよ～。'}
       />
       <Container>
         <div className="flex-grow min-h-screen">
