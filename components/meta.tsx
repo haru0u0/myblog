@@ -38,16 +38,6 @@ const Meta = () => {
         content={`A statically generated blog example using Next.js and ${CMS_NAME}.`}
       />
       <meta property="og:image" content={HOME_OG_IMAGE_URL} />
-      <Script src="https://www.googletagmanager.com/gtag/js?id=G-KTMBEMXQPN" />
-      <Script id="google-analytics">
-        {`
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        
-        gtag('config', 'G-KTMBEMXQPN');
-        `}
-      </Script>
     </Head>
   )
 }
