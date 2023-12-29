@@ -11,7 +11,7 @@ import Post from '../interfaces/post'
 import Twemoji from '../lib/Twemoji'
 import { Button } from 'flowbite-react';
 
-export default function About() {
+export default function Notfound() {
   return (
     <>
       <Layout>
