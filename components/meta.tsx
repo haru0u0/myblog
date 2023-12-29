@@ -2,7 +2,16 @@ import Head from 'next/head'
 import { CMS_NAME, HOME_OG_IMAGE_URL } from '../lib/constants'
 import Script from 'next/script'
 
-const Meta = () => {
+type Props = {
+  title: string
+  description: string
+  url: string
+  type: string
+  imageUrl: string
+}
+
+const Meta = (props: Props) => {
+  const { title, description, url, type, imageUrl } = props
   return (
     <Head>
       <link
@@ -35,9 +44,18 @@ const Meta = () => {
       <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
       <meta
         name="description"
-        content={`A statically generated blog example using Next.js and ${CMS_NAME}.`}
+        content={`yeah`}
       />
       <meta property="og:image" content={HOME_OG_IMAGE_URL} />
+      <title>{title}</title>
+      <meta name="description" content={description} />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta property="og:title" content={title} />
+      <meta property="og:description" content={description} />
+      <meta property="og:url" content={url} />
+      <meta property="og:site_name" content={title} />
+      <meta property="og:type" content={type} />
+      <meta property="og:image" content="https://blog.haru.ing/assets/blog/preview/cover.jpg" />
     </Head>
   )
 }
