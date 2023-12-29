@@ -19,7 +19,7 @@ const PostPreview = ({
 }: Props) => {
   return (
     <>
-      <div className="font-IBMjp transition ease-in-out delay-150 hover:translate-y-5 hover:shadow-[0px_0px_0px_rgba(0,0,0,0)] grid grid-cols-1 place-items-center w-full max-w-sm bg-myyellow border-2 md:border-4 border-black shadow-sm md:shadow-md rounded-lg dark:bg-gray-800 dark:border-gray-700 pt-5 pb-4">
+      <div className="font-IBMjp transition ease-in-out delay-150 hover:translate-y-5 hover:shadow-[0px_0px_0px_rgba(0,0,0,0)] grid grid-cols-1 place-items-center w-full max-w-sm bg-myyellow border-2 md:border-4 border-black shadow-sm md:shadow-md rounded-lg pt-5 pb-4">
         <div className="w-24 h-24 mb-3">
           <CoverImage slug={slug} title={title} emoji={emoji} />
         </div>
@@ -27,6 +27,7 @@ const PostPreview = ({
           <Link
             as={`/posts/${slug}`}
             href="/posts/[slug]"
+            className="hover:underline hover:decoration-wavy"
           >
             {title}
           </Link>

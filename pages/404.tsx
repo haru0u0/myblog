@@ -21,7 +21,7 @@ export default function About() {
         <Container>
           <Header />
           <div className="flex-grow">
-            <h1 className="mb-8 text-lg font-IBMjp font-bold tracking-tighter leading-tight tag flex justify-center">
+            <h1 className="m-8 text-lg font-IBMjp font-bold tracking-tighter leading-tight tag flex justify-center">
               <Twemoji emoji="⚠" />&nbsp;404&nbsp;<Twemoji emoji="⚠" />
             </h1>
             <div className="my-8 font-IBMjp tracking-tighter leading-tight flex justify-center">お探しのページが見つかりませんでした。</div>

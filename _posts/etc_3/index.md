@@ -8,6 +8,8 @@ tags:
   - つぶやき
 ---
 
+Reading log of The forms of informal learning: towards a conceptualization of the field. (Schugurensky, 2000) to help better understand the definition of "informal learning" in particular in the relation with similar terms, such as formal learning and nonformal learning. (Why are their names this confusing :/)
+
 ## What is informal learning?
 
 - Informal learning is learning that takes place outside the curricula in formal / non-fomal educational institutions.
@@ -72,6 +74,6 @@ Table 1: Three forms of informal learning（Schugurensky, 2000, p3）
 
 （Schugurensky, 2000, p4）
 
-## References
+## Reference
 
 Schugurensky, D. (2000). The forms of informal learning: towards a conceptualization of the field.

@@ -11,10 +11,10 @@ module.exports = {
         DOT: ['var(--font-DOT)'],
       },
       colors: {
-        mypink: '#b5f4ff',
-        myyellow: '#ffff9b',
-        mysky: '#fabfff',
-        myblue: '#fabfff',
+        mypink: '#FFAABB',
+        myyellow: '#EEDD88',
+        mysky: '#99DDFF',
+        myblue: '#99DDFF',
         mygreen: '#5FC1A4',
         mypurple: '#A8A6FF',
         'accent-1': '#FAFAFA',
@@ -40,6 +40,7 @@ module.exports = {
       },
       boxShadow: {
         sm: '5px 5px 0px 0px rgba(0, 0, 0, 1)',
+        bsm: '0px 5px 0px 0px rgba(0, 0, 0, 1)',
         md: '10px 10px 0px 0px rgba(0, 0, 0, 1)',
       },
       dropShadow: {

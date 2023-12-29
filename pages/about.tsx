@@ -22,7 +22,7 @@ export default function About() {
         <Container>
           <Header />
           <div className="flex-grow max-w-full">
-            <h1 className="mb-8 text-lg font-IBMjp font-bold tracking-tighter leading-tight tag flex justify-center">
+            <h1 className="m-8 text-lg font-IBMjp font-bold tracking-tighter leading-tight tag flex justify-center">
               # about
             </h1>
             <img className="h-auto mx-auto rounded-lg max-w-xs border-2 border-black shadow-sm md:shadow-md" src="/assets/profile.png"></img>

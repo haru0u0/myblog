@@ -1,9 +1,9 @@
 .znc {
-	line-height: 1.9
+    line-height: 1.9
 }
 
-.znc *{
-	@apply text-base;
+.znc * {
+    @apply text-base;
 }
 
 .znc>*:first-child {
@@ -21,7 +21,12 @@
 }
 
 .znc a {
-	@apply transition ease-in-out delay-150 underline hover:decoration-wavy;
+    @apply transition ease-in-out hover:text-myblue;
+    /*color: #0f83fd*/
+}
+
+.znc a:not(.header-anchor-link):after {
+    @apply content-['_↗_'] text-myblue transition ease-in-out delay-150;
     /*color: #0f83fd*/
 }
 
@@ -61,7 +66,7 @@
 }
 
 .znc ul>li::marker {
-	@apply text-black;
+    @apply text-black;
     font-size: 1.1em;
 }
 
@@ -80,8 +85,8 @@
     letter-spacing: -0.05em
 }
 
-.znc .contains-task-list li:before {
-    content: none !important
+.znc .contains-task-list .task-list-item {
+    list-style: none
 }
 
 .znc .task-list-item-checkbox {
@@ -96,13 +101,13 @@
 .znc h4+p,
 .znc h5+p,
 .znc h6+p {
-    margin-top: .3em
+    /*margin-top: .3em*/
 }
 
 .znc h1,
 .znc h2 {
-	@apply border-b-2 border-black p-1 font-bold text-lg md:text-2xl before:content-['#'] before:text-myblue;
-    margin-top: 2.3em;
+    @apply border-b-2 border-black p-1 font-bold text-lg md:text-2xl before:content-['#'] before:text-myblue;
+    margin-top: 1.5em;
     margin-bottom: .5em
 }
 
@@ -110,13 +115,13 @@
 .znc h4,
 .znc h5,
 .znc h6 {
-	@apply font-bold text-lg text-lg md:text-2xl before:content-['##'] before:text-myblue;
+    @apply font-bold text-lg text-lg md:text-2xl before:content-['##'] before:text-myblue;
     margin-top: 2.25em;
     margin-bottom: .5em
 }
 
 .znc h1 {
-    padding: .2em;
+    padding-bottom: .2em;
     margin-bottom: 1.1rem;
     position: relative;
 }
@@ -172,7 +177,7 @@
 .znc th {
     font-weight: 700;
     background: #000000;
-	color: #fff;
+    color: #fff;
 }
 
 .znc code {
@@ -210,7 +215,7 @@
 .znc pre code {
     margin: 0;
     padding: 0;
-    background: transparent;
+    background: rgba(0, 0, 0, 0);
     font-size: .9em;
     color: #fff
 }
@@ -252,14 +257,18 @@
     border-top-left-radius: 0
 }
 
+/*
 .znc img:not(.emoji) {
     margin: 1.5rem auto;
     display: table;
-    max-width: 100%;
+   ax-width: 100%;
     height: auto
 }
+*/
+
 
 .znc img+br {
+    @apply border-2 border-black;
     display: none
 }
 
@@ -270,6 +279,11 @@
     text-align: center;
     color: #77838c;
     font-size: .92em
+}
+
+.znc img {
+    @apply rounded-lg border-2 border-black h-auto mx-auto max-w-full md:max-w-md;
+    display: table;
 }
 
 .znc details {
@@ -303,23 +317,18 @@
 .znc .details-content {
     padding: .5em .9em;
     border: solid 1px rgba(92, 147, 187, .2);
-    border-radius: 0 0 5px 5px
+    border-radius: 0 0 5px 5px;
+    background: #fff
 }
 
 .znc .details-content>* {
     margin: .5em 0
 }
 
-.znc .embed-tweet,
-.znc .embed-gist,
-.znc .embed-speakerdeck,
-.znc .embed-slideshare,
-.znc .embed-codepen,
-.znc .embed-jsfiddle,
-.znc .embed-youtube,
-.znc .embed-codesandbox,
-.znc .embed-stackblitz,
-.znc .embed-mermaid {
+.znc span.embed-block {
+    @apply border-2 border-black rounded-lg shadow-sm bg-myblue transition ease-in-out delay-150 hover:translate-y-2 hover:shadow-none;
+    display: block;
+    width: 100%;
     margin: 1.5rem 0
 }
 
@@ -353,14 +362,34 @@
     border: 1px solid #1a2638
 }
 
-.znc .embed-zenn-link {
+.znc .embed-jsfiddle iframe {
+    border: 1px solid #1a2638
+}
+
+.znc .embed-figma {
+    border: solid 1px #cfdce6
+}
+
+.znc .zenn-embedded iframe {
+    width: 100%;
+    display: block
+}
+
+.znc .zenn-embedded-link-card {
+    @apply border-2 border-black;
     margin: 1rem auto
 }
 
-.znc .embed-zenn-link iframe {
-    height: 125px;
-    width: 100%;
-    display: block
+.znc .zenn-embedded-link-card iframe {
+    @apply border-2 border-black;
+    height: 125px
+}
+
+.znc .zenn-embedded-tweet,
+.znc .zenn-embedded-mermaid,
+.znc .zenn-embedded-github,
+.znc .zenn-embedded-gist {
+    margin: 1.5rem auto
 }
 
 .znc embed-katex:not([display-mode="1"]) {
@@ -379,16 +408,6 @@
     display: block;
     width: 100%;
     overflow-x: auto
-}
-
-.znc embed-mermaid svg {
-    height: auto
-}
-
-.znc pre.zenn-mermaid {
-    background: transparent;
-    color: #93a5b1;
-    font-size: .9rem
 }
 
 .znc pre[class*=language-] {
@@ -459,14 +478,6 @@
     display: block
 }
 
-.znc .token.prefix.unchanged {
-    display: none
-}
-
-.znc .token.unchanged>.token.prefix.unchanged {
-    display: inline
-}
-
 .znc .token.coord {
     color: #aad4ff
 }
@@ -522,59 +533,57 @@
     color: #ffc56d
 }
 
-.znc .msg {
-	@apply bg-myblue border-2 border-black;
-    position: relative;
+.znc aside.msg {
+    @apply border-2 border-black bg-myblue;
+    display: flex;
+    align-items: flex-start;
     margin: 1.5rem 0;
-    padding: 21px 15px 21px 45px;
-    border-radius: 6px;
-    color: rgba(0, 0, 0, 1);
+    padding: 1.4em 1em;
+    border-radius: 10px;
     font-size: .94em;
     line-height: 1.6
 }
 
-.znc .msg:before {
-    position: absolute;
-    left: 15px;
-    top: 50%;
-    transform: translateY(-52%);
-    content: "!";
-    display: block;
-    width: 20px;
-    height: 20px;
-    line-height: 20px;
-    font-size: 13px;
-    text-align: center;
-    color: #fff;
-    background: #ffb84c;
-    font-weight: 700;
-    border-radius: 50%;
+.znc aside.msg.alert {
+    background: #ffeff2
 }
 
-.znc .msg-symbol{
-	display: none;
-}
-
-.znc .msg>* {
-    margin: .5rem 0
-}
-
-.znc .msg>*:first-child,
-.znc .msg>*:last-child {
-    margin: 0
-}
-
-.znc .msg a {
+.znc aside.msg a {
     color: inherit;
     text-decoration: underline
 }
 
-.znc .msg.alert {
-    background: #ffeff2
+.znc .msg-symbol {
+    @apply bg-myyellow border-2 border-black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    width: 1.4rem;
+    height: 1.4rem;
+    border-radius: 99rem;
 }
 
-.znc .msg.alert:before {
-    background: #ff7670
+.znc aside.msg.alert .msg-symbol {
+    background-color: #ff7670
+}
+
+.znc .msg-content {
+    flex: 1;
+    margin-left: .6em;
+    min-width: 0
+}
+
+.znc .msg-content>* {
+    margin: .7rem 0
+}
+
+.znc .msg-content>*:first-child {
+    margin-top: 0
+}
+
+.znc .msg-content>*:last-child {
+    margin-bottom: 0
 }
 
 .znc .footnotes {
@@ -598,8 +607,11 @@
     margin: 13px 0 0
 }
 
-.znc .footnotes-twemoji {
-    border: none;
-    margin: 0 7px 0 0;
-    vertical-align: -3px
+.znc .footnote-item:target {
+    background: #e3eeff;
+    color: #1a2638
+}
+
+.znc [class^="EmbedBaseLinkCard_container__"] {
+    @apply border-2 border-black;
 }

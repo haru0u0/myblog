@@ -13,7 +13,7 @@ type Props = {
 const PostHeader = ({ title, emoji, date, tags }: Props) => {
   return (
     <>
-      <div className="font-bold bg-myyellow border-8 border-black shadow-sm md:shadow-md mt-4 md:m-8 p-10">
+      <div className="rounded-lg font-bold bg-myyellow border-2 md:border-4 border-black mt-4 md:m-8 p-10">
         <div className="mb-3 md:mb-16 sm:mx-i4 flex justify-center">
           <CoverImage title={title} emoji={emoji} />
         </div>

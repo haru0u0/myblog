@@ -23,10 +23,10 @@ export default function Index({ posts, tag }: Props) {
         <Head>
           <title>{tag}</title>
         </Head>
+        <Header />
         <Container>
-          <Header />
           <div className="flex-grow">
-            <h1 className="mb-8 text-lg font-IBMjp font-bold tracking-tighter leading-tight tag flex justify-center">
+            <h1 className="m-8 text-lg font-IBMjp font-bold tracking-tighter leading-tight tag flex justify-center">
               # {tag}
             </h1>
             <MoreStories posts={posts} />

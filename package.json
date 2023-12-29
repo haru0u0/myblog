@@ -4,7 +4,8 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "typecheck": "tsc"
+    "typecheck": "tsc",
+    "postinstall": "patch-package"
   },
   "dependencies": {
     "@next/font": "^14.0.1",
@@ -16,6 +17,8 @@
     "gray-matter": "^4.0.3",
     "next": "^14.0.1",
     "next-optimized-images": "^2.6.2",
+    "patch-package": "^8.0.0",
+    "postinstall-postinstall": "^2.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-emoji-render": "^2.0.1",
@@ -36,7 +39,6 @@
     "@types/react-dom": "^18.0.6",
     "autoprefixer": "^10.4.7",
     "case-sensitive-paths-webpack-plugin": "^2.4.0",
-    "daisyui": "^4.4.23",
     "postcss": "^8.4.14",
     "tailwindcss": "^3.1.4"
   }

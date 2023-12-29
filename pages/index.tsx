@@ -24,10 +24,10 @@ export default function Index({ allPosts }: Props) {
         <Head>
           <title>{`haru blog`}</title>
         </Head>
+        <Header />
         <Container>
-          <Header />
           <div className="flex-grow">
-            <h1 className="mb-8 text-lg font-IBMjp font-bold tracking-tighter leading-tight tag flex justify-center">
+            <h1 className="m-8 text-lg font-IBMjp font-bold tracking-tighter leading-tight tag flex justify-center">
               # 最近の投稿
             </h1>
             {morePosts.length > 0 && <MoreStories posts={morePosts} />}

@@ -31,14 +31,14 @@ export default function Post({ post, morePosts, preview }: Props) {
   }, []);
   return (
     <Layout preview={preview}>
+      <Header />
       <Container>
-        <Header />
         <div className="flex-grow">
           {router.isFallback ? (
             <PostTitle>Loading…</PostTitle>
           ) : (
             <>
-              <article className="mb-32">
+              <article className="">
                 <Head>
                   <title>{title}</title>
                   <meta property="og:image" content={post.ogImage.url} />

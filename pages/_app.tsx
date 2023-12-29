@@ -1,7 +1,7 @@
-
 import { AppProps } from 'next/app'
 import { useEffect } from 'react';
 import '../styles/index.css'
+//import 'zenn-content-css'
 import '../components/zenn-content-css.css'
 //import 'flowbite';
 import { initFlowbite } from "flowbite";
