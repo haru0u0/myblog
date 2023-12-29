@@ -34,7 +34,7 @@ const Seo = ({
             <meta name="description" content={description} />
             <meta property="og:title" content={title} />
             <meta property="og:site_name" content={title} />
-            <meta property="og:url" content={'https://blog.haru.ing/${path}'} />
+            <meta property="og:url" content={`https://blog.haru.ing/${path}`} />
             <meta property="og:description" content={description} />
             <meta property="og:type" content="website" />
             <meta property="og:image" content={imgUrl} />

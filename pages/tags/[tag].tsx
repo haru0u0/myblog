@@ -24,8 +24,8 @@ export default function Index({ posts, tag }: Props) {
           title={`${tag}の記事一覧`}
           emoji={''}
           date={''}
-          path={'tags/${tag}'}
-          desc={'${tag}についての記事一覧だよ～。。'}
+          path={`tags/${tag}`}
+          desc={`${tag}についての記事一覧だよ～。`}
         />
         <Head>
           <title>{tag}</title>
