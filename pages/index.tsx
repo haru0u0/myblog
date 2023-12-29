@@ -22,11 +22,13 @@ export default function Index({ allPosts }: Props) {
   return (
     <>
       <Layout>
-        title={`haru blog.`}
-        emoji={''}
-        date={''}
-        path={''}
-        desc={'haru blogのトップページだよ～。'}
+        <Seo
+          title={`haru blog.`}
+          emoji={''}
+          date={''}
+          path={''}
+          desc={'haru blogのトップページだよ～。'}
+        />
         <Head>
           <title>{`haru blog`}</title>
         </Head>
