@@ -13,8 +13,8 @@ const Header = () => {
       <div className="font-IBM hidden md:flex p-6 justify-center text-5xl md:text-8xl font-bold tracking-tighter leading-tight md:pr-8">
         <Link href="/">haru blog.</Link>
       </div>
-      <div className="bg-mypink sticky top-0 z-20 md:bg-mypink md:pt-2">
-        <nav className="font-IBM border-b-2 border-black mx-4">
+      <div className="bg-mypink sticky top-0 z-20 md:pt-2">
+        <nav className="font-IBM border-b-2 border-black">
           <div className="max-w-screen-xl flex flex-wrap items-center justify-between md:justify-center mx-auto px-4 py-2.5 md:py-0">
             <Link href="/" className="md:hidden flex font-IBM items-center space-x-3 rtl:space-x-reverse">
               <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">haru blog.</span>
@@ -25,7 +25,7 @@ const Header = () => {
                 <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 1h15M1 7h15M1 13h15" />
               </svg>
             </button>
-            <div className="hidden w-full md:block md:w-auto md:bg-transparent" id="navbar-dropdown">
+            <div className="hidden w-full md:block md:w-auto md:bg-mypink" id="navbar-dropdown">
               <ul className="flex flex-col font-medium my-4 md:flex-row md:my-0 md:text-sm md:space-x-8 md:rtl:space-x-reverse md:bg-transparent border-2 border-black shadow-sm rounded-lg md:border-0 md:shadow-none bg-white">
                 <li className="border-b-2 border-black hover:bg-myblue rounded-t-lg md:rounded-none md:border-0 md:p-3">
                   <Link href="/" className="block py-2 px-3 text-black rounded md:p-0 md:m-0" aria-current="page"><Twemoji emoji="🏠" />&nbsp;ホーム</Link>

@@ -26,8 +26,7 @@ tags:
 
 ポイントは、informal learning は、institutionの外で起きるものを指しているのではなく、institutionの**カリキュラム**の外で起きる学習のこと！なので、informal learning はformal, nonformal institutionsの中でも発生しえる。
 
-それぞれの学びの例は、以下の通り（
-クイズっぽくしてみた。トグルの中に学習と教育機関の種類が記載してあります。）
+それぞれの学びの例は、以下の通り。
 
 :::details 小学校で、数学の授業で方程式の公式を覚える
 formal learning @ formal educational institution

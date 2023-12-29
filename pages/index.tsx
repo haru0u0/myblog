@@ -24,9 +24,9 @@ export default function Index({ allPosts }: Props) {
         <Head>
           <title>{`haru blog`}</title>
         </Head>
-        <Header />
         <Container>
-          <div className="flex-grow">
+          <div className="flex-grow min-h-screen">
+            <Header />
             <h1 className="m-8 text-lg font-IBMjp font-bold tracking-tighter leading-tight tag flex justify-center">
               # 最近の投稿
             </h1>

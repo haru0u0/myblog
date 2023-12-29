@@ -23,9 +23,9 @@ export default function Index({ posts, tag }: Props) {
         <Head>
           <title>{tag}</title>
         </Head>
-        <Header />
         <Container>
-          <div className="flex-grow">
+          <div className="flex-grow min-h-screen">
+            <Header />
             <h1 className="m-8 text-lg font-IBMjp font-bold tracking-tighter leading-tight tag flex justify-center">
               # {tag}
             </h1>

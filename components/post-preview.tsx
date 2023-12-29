@@ -33,7 +33,7 @@ const PostPreview = ({
         </h3>
         <ul className="flex">
           {
-            tags.map((tag) => <li className="font-bold mb-1 bg-mysky font-black border-2 border-black shadow-sm text-sm font-medium mr-2 px-2.5 py-0.5 rounded">{tag}</li>)
+            tags.map((tag) => <li className="font-bold mb-1 bg-mysky font-black border-2 border-black text-sm font-medium mr-2 px-2.5 py-0.5 rounded">{tag}</li>)
           }
         </ul>
         <div className="text-sm text-black mt-2">

@@ -19,8 +19,8 @@ export default function About() {
           <title>{`haru blog`}</title>
         </Head>
         <Container>
-          <Header />
-          <div className="flex-grow max-w-full">
+          <div className="flex-grow max-w-full min-h-screen">
+            <Header />
             <h1 className="m-8 text-lg font-IBMjp font-bold tracking-tighter leading-tight tag flex justify-center">
               # about
             </h1>

@@ -287,31 +287,34 @@
 }
 
 .znc details {
+    @apply shadow-sm rounded-lg border-2 border-black transition ease-in-out delay-150 hover:translate-y-2 hover:shadow-none;
     font-size: .95em;
     margin: 1rem 0;
     line-height: 1.7
 }
 
 .znc summary {
+    @apply bg-myblue;
     cursor: pointer;
     outline: 0;
     padding: .7em .7em .7em .9em;
-    border: solid 1px rgba(92, 147, 187, .19);
     color: var(--c-contrast);
     font-size: .9em;
     border-radius: 9px;
-    box-shadow: 0 2px 4px -2px rgba(0, 0, 0, .15)
 }
 
 .znc summary::-webkit-details-marker {
     color: #77838c
 }
 
+.znc details[open] {
+    @apply translate-y-2 shadow-none;
+}
+
 .znc details[open] summary {
+    @apply bg-myblue border-b-2 border-black;
     border-radius: 5px 5px 0 0;
     box-shadow: none;
-    background: #f1f5f9;
-    border-bottom: none
 }
 
 .znc .details-content {
@@ -326,10 +329,17 @@
 }
 
 .znc span.embed-block {
-    @apply border-2 border-black rounded-lg shadow-sm bg-myblue transition ease-in-out delay-150 hover:translate-y-2 hover:shadow-none;
+    @apply border-2 border-black rounded-lg;
     display: block;
     width: 100%;
-    margin: 1.5rem 0
+    margin: 1.5rem 0;
+}
+
+.znc span.embed-block:not([class*="embed-youtube"]) {
+    @apply shadow-sm bg-myblue transition ease-in-out delay-150 hover:translate-y-2 hover:shadow-none;
+    display: block;
+    width: 100%;
+    margin: 1.5rem 0;
 }
 
 .znc .embed-slideshare,
@@ -376,12 +386,10 @@
 }
 
 .znc .zenn-embedded-link-card {
-    @apply border-2 border-black;
     margin: 1rem auto
 }
 
 .znc .zenn-embedded-link-card iframe {
-    @apply border-2 border-black;
     height: 125px
 }
 
@@ -612,6 +620,11 @@
     color: #1a2638
 }
 
-.znc [class^="EmbedBaseLinkCard_container__"] {
+.znc [class^="EmbedBaseLinkCard_link"] {
     @apply border-2 border-black;
+    background: hsl(200, 90%, 75%) !important;
+}
+
+.znc .EmbedBaseLinkCard_link__nicpZ {
+    background: #99DDFF !important;
 }

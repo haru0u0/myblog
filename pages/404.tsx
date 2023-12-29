@@ -19,8 +19,8 @@ export default function Notfound() {
           <title>{`haru blog`}</title>
         </Head>
         <Container>
-          <Header />
-          <div className="flex-grow">
+          <div className="flex-grow min-h-screen">
+            <Header />
             <h1 className="m-8 text-lg font-IBMjp font-bold tracking-tighter leading-tight tag flex justify-center">
               <Twemoji emoji="⚠" />&nbsp;404&nbsp;<Twemoji emoji="⚠" />
             </h1>

@@ -31,9 +31,9 @@ export default function Post({ post, morePosts, preview }: Props) {
   }, []);
   return (
     <Layout preview={preview}>
-      <Header />
       <Container>
-        <div className="flex-grow">
+        <div className="flex-grow min-h-screen">
+          <Header />
           {router.isFallback ? (
             <PostTitle>Loading…</PostTitle>
           ) : (

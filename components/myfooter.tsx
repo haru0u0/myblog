@@ -3,19 +3,22 @@ import { Footer } from 'flowbite-react';
 import { BsDribbble, BsFacebook, BsGithub, BsInstagram, BsTwitter } from 'react-icons/bs';
 import { SiZenn } from "react-icons/si";
 import { RiCopyrightLine } from "react-icons/ri";
+import Link from 'next/link'
+import { CiLink } from "react-icons/ci";
 
 const Myfooter = () => {
   return (
-    <div className="font-IBM md:flex md:items-center md:justify-between w-full p-2 pt-4 grid bg-transparent text-black sm:flex sm:justify-between md:grid-cols-1">
-      <div className="w-full flex items-center justify-between font-IBM">
-        <div className="font-IBM text-black">
+    <div className="font-IBM p-4 flex items-center bg-transparent text-black justify-between md:grid-cols-1 w-full">
+      <div className="flex items-center">
+        <div>
           <RiCopyrightLine className="inline" />&nbsp;2023 haru
         </div>
-        <div className="mt-4 flex space-x-6 items-center mt-0">
-          <Footer.Icon href="https://twitter.com/haru0u0_" icon={BsTwitter} target="blank" className="text-black" />
-          {/*<Footer.Icon href="https://github.com/sen-haru" icon={BsGithub} target="blank" className="text-black" />
-          <Footer.Icon href="https://zenn.dev/haruchann" icon={SiZenn} target="blank" className="text-black" />*/}
-        </div>
+        &nbsp;&nbsp;<Link href="https://twitter.com/haru0u0_" target="blank" className="inline"><BsTwitter /></Link>
+      </div>
+      <div className="flex justify-right">
+        <Link href="/privacypolicy">
+          Privacy Policy
+        </Link>
       </div>
     </div>
   );
