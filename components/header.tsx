@@ -30,9 +30,18 @@ const Header = () => {
                 <li className="border-b-2 border-black hover:bg-myblue rounded-t-lg md:rounded-none md:border-0 md:p-3">
                   <Link href="/" className="block py-2 px-3 text-black rounded md:p-0 md:m-0" aria-current="page"><Twemoji emoji="🏠" />&nbsp;ホーム</Link>
                 </li>
+                <li className="md:border-0 md:p-3 hover:bg-myblue" style={{ marginLeft: 0 + 'em' }}>
+                  <Link href="/tags/イギリス暮らし" className="block py-2 px-3 border-b-2 border-black md:border-0 md:p-0"><Twemoji emoji="🇬🇧" />&nbsp;暮らし</Link>
+                </li>
+                <li className="md:border-0 md:p-3 hover:bg-myblue" style={{ marginLeft: 0 + 'em' }}>
+                  <Link href="/tags/42" className="block py-2 px-3 border-b-2 border-black md:border-0 md:p-0"><Twemoji emoji="👩🏻‍💻" />&nbsp;42</Link>
+                </li>
+                <li className="md:border-0 md:p-3 hover:bg-myblue" style={{ marginLeft: 0 + 'em' }}>
+                  <Link href="/tags/つぶやき" className="block py-2 px-3 border-b-2 border-black md:border-0 md:p-0"><Twemoji emoji="🧠" />&nbsp;つぶやき</Link>
+                </li>
                 <li className="hover:bg-myblue md:p-3" style={{ marginLeft: 0 + 'em' }}>
                   <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" className="flex items-center justify-start py-2 px-3 w-full border-b-2 border-black md:border-0 md:p-0">
-                    <Twemoji emoji="👩🏻‍🎓" />&nbsp;留学<svg className="w-2.5 h-2.5 ms-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                    <Twemoji emoji="👩🏻‍🎓" />&nbsp;アーカイブ<svg className="w-2.5 h-2.5 ms-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                       <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 1 4 4 4-4" />
                     </svg></button>
                   <div id="dropdownNavbar" className="z-10 hidden font-normal bg-white border-2 border-black rounded-lg shadow-sm w-44">
@@ -45,12 +54,6 @@ const Header = () => {
                       </li>
                     </ul>
                   </div>
-                </li>
-                <li className="md:border-0 md:p-3 hover:bg-myblue" style={{ marginLeft: 0 + 'em' }}>
-                  <Link href="/tags/イギリス暮らし" className="block py-2 px-3 border-b-2 border-black md:border-0 md:p-0"><Twemoji emoji="🇬🇧" />&nbsp;暮らし</Link>
-                </li>
-                <li className="md:border-0 md:p-3 hover:bg-myblue" style={{ marginLeft: 0 + 'em' }}>
-                  <Link href="/tags/つぶやき" className="block py-2 px-3 border-b-2 border-black md:border-0 md:p-0"><Twemoji emoji="🧠" />&nbsp;つぶやき</Link>
                 </li>
                 <li className="md:border-0 md:p-3 hover:bg-myblue rounded-b-lg md:rounded-none" style={{ marginLeft: 0 + 'em' }}>
                   <Link href="/about" className="block py-2 px-3 border-black md:border-0 md:p-0"><Twemoji emoji="🥰" />&nbsp;わたし</Link>

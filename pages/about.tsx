@@ -10,16 +10,19 @@ import { CMS_NAME } from '../lib/constants'
 import Post from '../interfaces/post'
 import Twemoji from '../lib/Twemoji'
 import Link from 'next/link'
+import Seo from '../components/seo';
 
 export default function About() {
   return (
     <>
       <Layout>
-        title={`about haru`}
-        emoji={''}
-        date={''}
-        path={'about'}
-        desc={'haruの自己紹介記事だよ～。'}
+        <Seo
+          title={`about haru`}
+          emoji={''}
+          date={''}
+          path={'about'}
+          desc={'haruの自己紹介記事だよ～。'}
+        />
         <Head>
           <title>{`haru blog`}</title>
         </Head>
@@ -34,7 +37,7 @@ export default function About() {
               こんにちは！97年うまれのharuです。<br /><br />
               22年09月からイギリスで暮らしています。<br /><br />
               好きな食べ物はチーズと納豆とズッキーニ。<br /><br />
-              好きな動物はお犬です。<br /><br />
+              好きな動物はお犬です。ワンワン。ワン。<br /><br />
               教育とテクノロジーに関心があります。
             </div>
           </div>

@@ -185,7 +185,8 @@
     background: rgba(33, 90, 160, .07);
     font-size: .85em;
     border-radius: 4px;
-    vertical-align: .08em
+    vertical-align: .08em;
+    white-space: pre-wrap !important;
 }
 
 .znc code,
