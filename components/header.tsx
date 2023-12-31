@@ -47,7 +47,7 @@ const Header = () => {
                   </div>
                 </li>
                 <li className="md:border-0 md:p-3 hover:bg-myblue" style={{ marginLeft: 0 + 'em' }}>
-                  <Link href="/tags/イギリスお仕事" className="block py-2 px-3 border-b-2 border-black md:border-0 md:p-0"><Twemoji emoji="👩‍💻" />&nbsp;お仕事</Link>
+                  <Link href="/tags/イギリス暮らし" className="block py-2 px-3 border-b-2 border-black md:border-0 md:p-0"><Twemoji emoji="🇬🇧" />&nbsp;暮らし</Link>
                 </li>
                 <li className="md:border-0 md:p-3 hover:bg-myblue" style={{ marginLeft: 0 + 'em' }}>
                   <Link href="/tags/つぶやき" className="block py-2 px-3 border-b-2 border-black md:border-0 md:p-0"><Twemoji emoji="🧠" />&nbsp;つぶやき</Link>
