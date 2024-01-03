@@ -21,7 +21,7 @@ export default function (req: NextRequest) {
 
     const date = hasEmoji
         ? searchParams.get("date")?.slice(0, 100)
-        : "2100/01/01";
+        : "";
 
     return new ImageResponse(
         (
@@ -86,6 +86,7 @@ export default function (req: NextRequest) {
         {
             width: 1200,
             height: 600,
+            emoji: 'twemoji',
         }
     );
 }
