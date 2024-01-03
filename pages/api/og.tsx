@@ -1,14 +1,14 @@
 import { ImageResponse } from "@vercel/og";
 import { NextRequest } from "next/server";
+import fs from 'fs'
 
 export const config = {
     runtime: "experimental-edge",
 };
 
 const font = fetch(
-    new URL("../../public/assets/IBMPlexSansJP-subset.woff", import.meta.url)
+    new URL("https://drive.google.com/file/d/1Heays7yuhV7Z8IPkd8hhE5DiTKQVIYt8/view?usp=sharing", import.meta.url)
 ).then((res) => res.arrayBuffer());
-
 
 export default async function (req: NextRequest) {
     const { searchParams } = new URL(req.url);
