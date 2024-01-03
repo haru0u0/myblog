@@ -42,5 +42,10 @@
     "case-sensitive-paths-webpack-plugin": "^2.4.0",
     "postcss": "^8.4.14",
     "tailwindcss": "^3.1.4"
+  },
+  "browser": {
+    "fs": false,
+    "os": false,
+    "path": false
   }
 }

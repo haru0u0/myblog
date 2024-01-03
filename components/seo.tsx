@@ -19,11 +19,9 @@ const Seo = ({
 }: Props) => {
     const defaultTitle = 'haru blog.';
     const defaultDescription = 'haruのブログです。';
-    const defautlImg = 'https://blog.haru.ing/assets/blog/preview/cover.jpg';
 
     const posttitle = title ? `${title} | ${defaultTitle}` : defaultTitle;
     const description = desc ? desc : defaultDescription;
-    const imgUrl = defautlImg;
 
     return (
         <Head>
@@ -37,7 +35,7 @@ const Seo = ({
             <meta property="og:url" content={`https://blog.haru.ing/${path}`} />
             <meta property="og:description" content={description} />
             <meta property="og:type" content="website" />
-            <meta property="og:image" content={imgUrl} />
+            <meta property="og:image" content={`https://haru-blog-chi.vercel.app/api/og?title=${title}`} />
         </Head>
     );
 };

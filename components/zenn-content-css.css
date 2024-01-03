@@ -6,6 +6,10 @@
     @apply text-base;
 }
 
+.znc p:has(img) {
+    text-align: center;
+}
+
 .znc>*:first-child {
     margin-top: 0
 }
@@ -267,11 +271,12 @@
 }
 */
 
-
+/*
 .znc img+br {
     @apply border-2 border-black;
     display: none
 }
+*/
 
 .znc img~em {
     display: block;
@@ -282,9 +287,10 @@
     font-size: .92em
 }
 
+
 .znc img {
-    @apply rounded-lg border-2 border-black h-auto mx-auto max-w-full md:max-w-md;
-    display: table;
+    @apply inline w-full md:w-2/5 rounded-lg border-2 border-black h-auto mb-2;
+    position: relative;
 }
 
 .znc details {
@@ -330,10 +336,10 @@
 }
 
 .znc span.embed-block {
-    @apply border-2 border-black rounded-lg;
-    display: block;
-    width: 100%;
-    margin: 1.5rem 0;
+    @apply block mx-auto mb-2;
+    /*display: table;
+    width: 50%;*/
+    /*margin: 1.5rem 0;*/
 }
 
 .znc span.embed-block:not([class*="embed-youtube"]) {
@@ -349,10 +355,11 @@
 .znc .embed-jsfiddle,
 .znc .embed-youtube,
 .znc .embed-stackblitz {
-    padding-bottom: calc(56.25% + 38px);
+    @apply rounded-lg border-2 border-black aspect-video md:w-3/4 md:mx-auto w-full;
+    /*padding-bottom: calc(56.25% + 38px);*/
     position: relative;
-    width: 100%;
-    height: 0
+    /*width: 50%;
+    height: 0*/
 }
 
 .znc .embed-slideshare iframe,

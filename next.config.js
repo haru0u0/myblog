@@ -5,7 +5,7 @@ const WriteFilePlugin = require('write-file-webpack-plugin')
 
 module.exports = {
   trailingSlash: true,
-  output: 'export',
+  /*output: 'export',*/
   distDir: 'out',
   images: {
     unoptimized: true,
@@ -18,12 +18,12 @@ module.exports = {
             context: '_posts',
             from: '**/*.{jpg,png}',
             to: resolve(__dirname, 'public/assets/blog/posts'),
-			  noErrorOnMissing: true,
-		  },
-		],
-	  }),
-		new WriteFilePlugin(),
-		new CaseSensitivePathsPlugin()
+            noErrorOnMissing: true,
+          },
+        ],
+      }),
+      new WriteFilePlugin(),
+      new CaseSensitivePathsPlugin()
     )
     return config
   },

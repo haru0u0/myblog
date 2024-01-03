@@ -9,22 +9,31 @@ tags:
 ---
 
 ## はじめに
-毎年年末に1年を記録に残しておきたいなと思ったので、2023年からはじめる。もう2024年になっちゃったけど...！
+毎年年末に1年を記録に残しておきたいなと思ったので、2023年の記録からはじめる。もう2024年になっちゃったけど...！
+
+## Spotifyまとめ
+
+![spotify-wrap](/assets/blog/posts/2023/4.png)
+
 
 ## 音楽
 - REIRIEが復活して嬉しかった。嬉しい～！ライブに行きたい！
-- 開歌は推しが卒業して悲しい。新メンバーに期待。
-![Edinburgh](/assets/blog/posts/2023/4.png)
-@[YouTube](QRu4CEoP4nQ)
 
-## 映画 / ドラマ
-- Sex Education, Emily in Paris, Never have I everにはまった。Sex Educationはシーズン4に母校がたくさん登場していてうれしかった。
+@[youtube](QRu4CEoP4nQ)
+
+- 香取慎吾が数百年ぶり（体感）にテレビで歌ってうれしかった。
+- 開歌、推しが卒業してしまった。名前からアイドル。元気かなあ～。
+
+@[youtube](wcpzplwbYWE)
 
 ## YouTube
-- エレガント人生とハローミキティチャンネルをよくみた。
-- PewDiePieの日本暮らしを観るのもたのしい。
-@[YouTube](qQHKA3JJ1hk)
-@[YouTube](N2N5ZwX6U20)
+- エレガント人生が好き。よくみた。
+
+@[youtube](qQHKA3JJ1hk)
+
+- PewDiePieの日本暮らしを観るのもたのしかった。
+
+@[youtube](N2N5ZwX6U20)
 
 ## 本
 - 大学院で出会えてよかった文章のうちのひとつ、ふたつ。フリーアクセスで読める。
@@ -33,28 +42,30 @@ tags:
 - 昔よくみていた日本在住イギリス人YouTuberの本。British humourがいっぱいで面白い。イギリスでも結構売れていてうれしい。本屋さんの目立つ位置に置いてある。
   - [Abroad in Japan](https://www.amazon.co.uk/Abroad-Japan-Chris-Broad/dp/1787637077)
 
+## 映画 / ドラマ
+- Sex Education, Emily in Paris, Never have I everにはまった。Sex Educationはシーズン4に母校がたくさん登場していてうれしかった。
+
 ## 旅行
 - 行った場所
   - ネパール: ポカラ、カトマンズ
   - UAE: ドバイ
   - スペイン: マドリード、バルセロナ　※発熱のため99%ホテルで過ごした。
   - イギリス：ヨーク、ブレナム宮殿、ストーンヘンジ、フローム、エジンバラ
+- ポカラ滞在中にカトマンズ→ポカラの飛行機が墜落した。もちろん自分は搭乗していませんでしたが、自分がのっていたかもしれなかったのでショッキングだった。
 - Edinburghが暫定イギリスで一番好き。ご飯おいしく、空が近い感じがする町。
 - イギリスのクリスマスは絶対にBleinham Palaceに行くべき。綺麗すぎる！
-- ポカラ滞在中にカトマンズ→ポカラの飛行機が墜落した。
-![Edinburgh](/assets/blog/posts/2023/1.jpg)
-![Bleinham Palace](/assets/blog/posts/2023/2.jpg)
-![Bleinham Palace](/assets/blog/posts/2023/3.jpg)
+
+![Bleinham Palace](/assets/blog/posts/2023/2.jpg) ![Bleinham Palace](/assets/blog/posts/2023/3.jpg)
 
 ## 趣味
-- Bakeにはまり始めた。パンやクッキー。主にパン。難しいと思ってたけど、やってみたら意外と簡単だった。[このレシピ](https://oceans-nadia.com/user/11285/recipe/374698)がモチモチにできてお気に入り。
-![An-pan](/assets/blog/posts/2023/6.jpg)
-![Cinnamon Bread etc](/assets/blog/posts/2023/7.jpg)
-![Pizza](/assets/blog/posts/2023/8.jpg)
 - ブログをつくったり（これ）、文献リストを出力するサービスをつくったりした。たのしかった。
+- Bakeにはまり始めた。パンやクッキー。主にパン。難しいと思ってたけど、やってみたら意外と簡単だった。[このレシピ](https://oceans-nadia.com/user/11285/recipe/374698)がモチモチにできてお気に入り。
+
+![An-pan](/assets/blog/posts/2023/6.jpg) ![Pizza](/assets/blog/posts/2023/8.jpg)
 
 ## おいしい
 - Flat Peachおいしすぎる。
+
 ![FlatPeach](/assets/blog/posts/2023/5.jpg)
 
 ## 健康
@@ -65,19 +76,19 @@ tags:
 - もうシャワールームをシェアする気力体力は残っていないことを知った。
 
 ## ライフ
-- 大学院を修了した。しかもまさかのDistinction。いろいろなこととひとに感謝します。
+- 大学院を修了した。しかもまさかのDistinction。いろいろなこととひとに感謝します。がんばろう。
 - イギリスで仕事のオファーを得た。バックグラウンドチェックに時間がかかってまだ始められてない。2024年は働きたい。
 - 友人が亡くなった。
 - ずっと興味があったコーディングスクールの42に通い始めた。おもしろい。
 
 ## 買ったもの
 - ブラックフライデーで購入したスニーカーがお気に入り。£70くらいのナイキと、£30くらいの防水コンバース。コンバースは防水だしあったかいのにスニーカーだからちゃんと歩きやすくてとてもよかった。ナイキはちょっと歩きにくいし白本当にすぐ汚れるけど、かわいいのでいい。
+
 ![ナイキとコンバースのスニーカー](/assets/blog/posts/2023/11.png)
 
-- 春に一時帰国したときに購入したドラえもん眼鏡がかなりお気に入り。耳にドラえもんがいるだけで幸せな気持ちになる。下の2本を購入した。
-![ドラえもん柄の眼鏡_透明](/assets/blog/posts/2023/9.png)
-![ドラえもん柄の眼鏡_茶色](/assets/blog/posts/2023/10.png)
-@[card](https://www.jins.com/jp/collabo/doraemon/)
+- 春に一時帰国したときに購入した[Jinsドラえもん眼鏡](https://www.jins.com/jp/collabo/doraemon/)がかなりお気に入り。耳にドラえもんがいるだけで幸せな気持ちになる。下の2本を購入した。
+
+![ドラえもん柄の眼鏡_透明](/assets/blog/posts/2023/9.png) ![ドラえもん柄の眼鏡_茶色](/assets/blog/posts/2023/10.png)
 
 ## 来年の抱負
 - 部屋を綺麗にしてすごしたい。
