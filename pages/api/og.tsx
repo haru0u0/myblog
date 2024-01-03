@@ -2,14 +2,20 @@ import { ImageResponse } from "@vercel/og";
 import { NextRequest } from "next/server";
 
 export const config = {
-    runtime: "edge",
+    runtime: "experimental-edge",
 };
 
-export default function (req: NextRequest) {
+const font = fetch(
+    new URL("../../public/assets/IBMPlexSansJP-subset.ttf", import.meta.url)
+).then((res) => res.arrayBuffer());
+
+
+export default async function (req: NextRequest) {
     const { searchParams } = new URL(req.url);
     const hasTitle = searchParams.has("title");
     const hasEmoji = searchParams.has("emoji");
     const hasDate = searchParams.has("date");
+    const fontData = await font;
 
     const title = hasTitle
         ? searchParams.get("title")?.slice(0, 100)
@@ -38,6 +44,7 @@ export default function (req: NextRequest) {
                     justifyContent: "center",
                     flexDirection: "column",
                     flexWrap: "nowrap",
+                    fontFamily: '"IBMPlexSansJP"',
                 }}
             >
                 <div
@@ -64,6 +71,7 @@ export default function (req: NextRequest) {
                         color: "#000",
                         padding: "0 120px",
                         lineHeight: 1.3,
+                        fontFamily: '"IBMPlexSansJP"',
                     }}
                 >
                     {title}
@@ -87,6 +95,13 @@ export default function (req: NextRequest) {
             width: 1200,
             height: 600,
             emoji: 'twemoji',
+            fonts: [
+                {
+                    name: "IBMPlexSansJP",
+                    data: fontData,
+                    style: "normal",
+                },
+            ],
         }
     );
 }
