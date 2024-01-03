@@ -34,7 +34,7 @@ const Seo = ({
             <meta property="og:url" content={`https://blog.haru.ing/${path}`} />
             <meta property="og:description" content={description} />
             <meta property="og:type" content="website" />
-            <meta property="og:image" content={`https://haru-blog-chi.vercel.app/api/og?title=${title}`} />
+            <meta property="og:image" content={`https://haru-blog-chi.vercel.app/api/og?title=${title}&emoji=${emoji}&date=${date}`} />
         </Head>
     );
 };
