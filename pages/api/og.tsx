@@ -6,7 +6,7 @@ export const config = {
 };
 
 const font = fetch(
-    new URL("../../public/assets/IBMPlexSansJP-subset.ttf", import.meta.url)
+    new URL("../../public/assets/IBMPlexSansJP-subset.woff", import.meta.url)
 ).then((res) => res.arrayBuffer());
 
 
@@ -58,6 +58,7 @@ export default async function (req: NextRequest) {
                         //padding: "0 120px",
                         lineHeight: 1.3,
                         wordWrap: "break-word",
+                        //transform: "rotate(30deg)",
                     }}
                 >
                     {emoji}
