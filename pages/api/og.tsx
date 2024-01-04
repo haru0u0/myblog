@@ -87,8 +87,8 @@ export default async function (req: NextRequest) {
                 </div>
                 <div
                     style={{
-                        marginTop: "480px",
-                        marginLeft: "250px",
+                        marginTop: "550px",
+                        marginLeft: "400px",
                         //width: "200%",
                         fontSize: 60,
                         fontStyle: "normal",
