@@ -54,7 +54,7 @@ export default async function (req: NextRequest) {
                         marginTop: "0px",
                         marginLeft: "-20px",
                         //width: "200%",
-                        fontSize: 100,
+                        fontSize: 80,
                         fontStyle: "normal",
                         fontWeight: "bold",
                         color: "#000",
@@ -63,24 +63,26 @@ export default async function (req: NextRequest) {
                         //wordWrap: "break-word",
                         transform: "rotate(30deg)",
                         position: "absolute",
+                        opacity: "0.8",
                     }}
                 >
                     {emoji}
                 </div>
                 <div
                     style={{
-                        marginTop: "420px",
+                        marginTop: "460px",
                         marginLeft: "100px",
                         //width: "200%",
-                        fontSize: 150,
+                        fontSize: 50,
                         fontStyle: "normal",
                         fontWeight: "bold",
                         color: "#000",
                         //padding: "0 120px",
                         //lineHeight: 1.3,
                         //wordWrap: "break-word",
-                        transform: "rotate(160deg)",
+                        transform: "rotate(170deg)",
                         position: "absolute",
+                        opacity: "0.8",
                     }}
                 >
                     {emoji}
@@ -90,7 +92,7 @@ export default async function (req: NextRequest) {
                         marginTop: "80px",
                         marginLeft: "250px",
                         //width: "200%",
-                        fontSize: 80,
+                        fontSize: 60,
                         fontStyle: "normal",
                         fontWeight: "bold",
                         color: "#000",
@@ -99,6 +101,7 @@ export default async function (req: NextRequest) {
                         //wordWrap: "break-word",
                         transform: "rotate(290deg)",
                         position: "absolute",
+                        opacity: "0.8",
                     }}
                 >
                     {emoji}
@@ -108,7 +111,7 @@ export default async function (req: NextRequest) {
                         marginTop: "40px",
                         marginLeft: "850px",
                         //width: "200%",
-                        fontSize: 100,
+                        fontSize: 80,
                         fontStyle: "normal",
                         fontWeight: "bold",
                         color: "#000",
@@ -117,6 +120,7 @@ export default async function (req: NextRequest) {
                         //wordWrap: "break-word",
                         transform: "rotate(350deg)",
                         position: "absolute",
+                        opacity: "0.8",
                     }}
                 >
                     {emoji}
@@ -126,7 +130,7 @@ export default async function (req: NextRequest) {
                         marginTop: "490px",
                         marginLeft: "700px",
                         //width: "200%",
-                        fontSize: 110,
+                        fontSize: 70,
                         fontStyle: "normal",
                         fontWeight: "bold",
                         color: "#000",
@@ -135,16 +139,17 @@ export default async function (req: NextRequest) {
                         //wordWrap: "break-word",
                         transform: "rotate(30deg)",
                         position: "absolute",
+                        opacity: "0.8",
                     }}
                 >
                     {emoji}
                 </div>
                 <div
                     style={{
-                        marginTop: "420px",
+                        marginTop: "440px",
                         marginLeft: "1000px",
                         //width: "200%",
-                        fontSize: 110,
+                        fontSize: 80,
                         fontStyle: "normal",
                         fontWeight: "bold",
                         color: "#000",
@@ -153,16 +158,36 @@ export default async function (req: NextRequest) {
                         //wordWrap: "break-word",
                         transform: "rotate(340deg)",
                         position: "absolute",
+                        opacity: "0.8",
                     }}
                 >
                     {emoji}
                 </div>
                 <div
                     style={{
-                        marginTop: "auto",
+                        marginTop: "-40px",
+                        marginLeft: "1150px",
+                        //width: "200%",
+                        fontSize: 70,
+                        fontStyle: "normal",
+                        fontWeight: "bold",
+                        color: "#000",
+                        //padding: "0 120px",
+                        //lineHeight: 1.3,
+                        //wordWrap: "break-word",
+                        transform: "rotate(10deg)",
+                        position: "absolute",
+                        opacity: "0.8",
+                    }}
+                >
+                    {emoji}
+                </div>
+                <div
+                    style={{
+                        margin: "auto",
                         marginBottom: "0px",
-                        marginLeft: "7px",
-                        marginRight: "7px",
+                        paddingLeft: "10px",
+                        paddingRight: "10px",
                         //width: "100%",
                         fontSize: 50,
                         fontStyle: "normal",
