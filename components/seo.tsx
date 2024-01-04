@@ -37,9 +37,9 @@ const Seo = ({
             <meta property="og:image" content={`${PROD_URL}/api/og?title=${title}&emoji=${emoji}&date=${date}`} />
 
             <meta name="twitter:card" content="summary_large_image" />
-            <meta property="twitter:domain" content="haru-blog-chi.vercel.app" />
+            <meta property="twitter:domain" content="blog.haru0u0.com" />
             <meta property="twitter:url" content={`${PROD_URL}/${path}`} />
-            <meta name="twitter:title" content="{title}" />
+            <meta name="twitter:title" content={title} />
             <meta name="twitter:description" content={description} />
             <meta name="twitter:image" content={`${PROD_URL}/api/og?title=${title}&emoji=${emoji}&date=${date}`} />
         </Head>
