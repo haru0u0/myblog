@@ -11,20 +11,18 @@ tags:
 ## はじめに
 毎年年末に1年を記録に残しておきたいなと思ったので、2023年の記録からはじめる。もう2024年になっちゃったけど...！
 
-## Spotifyまとめ
-
-![spotify-wrap](/assets/blog/posts/2023/4.png)
-
-
 ## 音楽
-- REIRIEが復活して嬉しかった。嬉しい～！ライブに行きたい！
+- 2017年くらいに（簡単に説明すると）解散していたREIRIEが復活して嬉しかった。嬉しい～！ライブに行きたい！
 
 @[youtube](QRu4CEoP4nQ)
 
-- 香取慎吾が数百年ぶり（体感）にテレビで歌ってうれしかった。
-- 開歌、推しが卒業してしまった。名前からアイドル。元気かなあ～。
+- 開歌、南雲咲楽（なぐもさら）ちゃんという推しが卒業してしまった。名前からアイドル！元気かなあ～。
 
 @[youtube](wcpzplwbYWE)
+
+- 香取慎吾が数百年ぶり（体感）にテレビで歌ってうれしかった。
+- いろんな曲を聴いた。
+![spotify-wrap](/assets/blog/posts/2023/4.png)
 
 ## YouTube
 - エレガント人生が好き。よくみた。
@@ -36,7 +34,7 @@ tags:
 @[youtube](N2N5ZwX6U20)
 
 ## 本
-- 大学院で出会えてよかった文章のうちのひとつ、ふたつ。フリーアクセスで読める。
+- 大学院で出会えてよかった文章のうちのひとつ、ふたつ。
   - [Data Feminism (D’Ignazio, C., & Klein, L., 2020).](https://data-feminism.mitpress.mit.edu/)
   - [Design Justice (Costanza-Chock, S., 2020)](https://designjustice.mitpress.mit.edu/)
 - 昔よくみていた日本在住イギリス人YouTuberの本。British humourがいっぱいで面白い。イギリスでも結構売れていてうれしい。本屋さんの目立つ位置に置いてある。
@@ -64,7 +62,7 @@ tags:
 ![An-pan](/assets/blog/posts/2023/6.jpg) ![Pizza](/assets/blog/posts/2023/8.jpg)
 
 ## おいしい
-- Flat Peachおいしすぎる。
+- Flat Peachというヨーロッパでメジャーな？桃がおいしすぎる。とっても甘くて、かぶりと食べられてお手軽。
 
 ![FlatPeach](/assets/blog/posts/2023/5.jpg)
 
@@ -101,4 +99,4 @@ tags:
 
 -----
 
-ありがとうございました。よろしくお願いします。
+2023年ありがとうございました。2024年よろしくお願いします。
