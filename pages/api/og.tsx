@@ -35,7 +35,7 @@ export default async function (req: NextRequest) {
         (
             <div
                 style={{
-                    backgroundImage: "url(https://haru-blog-chi.vercel.app/assets/og-bg.png)",
+                    backgroundImage: "url(https://blog.haru0u0.com/assets/og-bg.png)",
                     backgroundColor: "#FFAABB",
                     backgroundSize: "100% 100%",
                     height: "100%",
