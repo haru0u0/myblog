@@ -3,19 +3,21 @@ import { NextRequest } from "next/server";
 import fs from 'fs'
 
 export const config = {
-    runtime: "experimental-edge",
+    runtime: "edge",
 };
 
+/*
 const font = fetch(
-    new URL("https://drive.google.com/file/d/1Heays7yuhV7Z8IPkd8hhE5DiTKQVIYt8/view?usp=sharing", import.meta.url)
+    new URL("../../public/assets/IBMPlexSansJP-subset.woff", import.meta.url)
 ).then((res) => res.arrayBuffer());
+*/
 
 export default async function (req: NextRequest) {
     const { searchParams } = new URL(req.url);
     const hasTitle = searchParams.has("title");
     const hasEmoji = searchParams.has("emoji");
     const hasDate = searchParams.has("date");
-    const fontData = await font;
+    /*const fontData = await font;*/
 
     const title = hasTitle
         ? searchParams.get("title")?.slice(0, 100)
@@ -34,75 +36,164 @@ export default async function (req: NextRequest) {
             <div
                 style={{
                     backgroundImage: "url(https://haru-blog-chi.vercel.app/assets/og-bg.png)",
-                    backgroundColor: "#fff",
+                    backgroundColor: "#FFAABB",
                     backgroundSize: "100% 100%",
                     height: "100%",
                     width: "100%",
                     display: "flex",
+                    position: "relative",
                     textAlign: "center",
-                    alignItems: "center",
-                    justifyContent: "center",
+                    //alignItems: "center",
+                    //justifyContent: "center",
                     flexDirection: "column",
-                    flexWrap: "nowrap",
-                    fontFamily: '"IBMPlexSansJP"',
+                    //flexWrap: "nowrap",
                 }}
             >
                 <div
                     style={{
-                        marginTop: "70px",
-                        //width: "100%",
+                        marginTop: "0px",
+                        marginLeft: "-20px",
+                        //width: "200%",
                         fontSize: 100,
                         fontStyle: "normal",
                         fontWeight: "bold",
                         color: "#000",
                         //padding: "0 120px",
-                        lineHeight: 1.3,
-                        wordWrap: "break-word",
-                        //transform: "rotate(30deg)",
+                        //lineHeight: 1.3,
+                        //wordWrap: "break-word",
+                        transform: "rotate(30deg)",
+                        position: "absolute",
                     }}
                 >
                     {emoji}
                 </div>
                 <div
                     style={{
-                        //width: "100%",
-                        fontSize: 60,
+                        marginTop: "420px",
+                        marginLeft: "100px",
+                        //width: "200%",
+                        fontSize: 150,
                         fontStyle: "normal",
                         fontWeight: "bold",
                         color: "#000",
-                        padding: "0 120px",
-                        lineHeight: 1.3,
-                        fontFamily: '"IBMPlexSansJP"',
+                        //padding: "0 120px",
+                        //lineHeight: 1.3,
+                        //wordWrap: "break-word",
+                        transform: "rotate(160deg)",
+                        position: "absolute",
+                    }}
+                >
+                    {emoji}
+                </div>
+                <div
+                    style={{
+                        marginTop: "80px",
+                        marginLeft: "250px",
+                        //width: "200%",
+                        fontSize: 80,
+                        fontStyle: "normal",
+                        fontWeight: "bold",
+                        color: "#000",
+                        //padding: "0 120px",
+                        //lineHeight: 1.3,
+                        //wordWrap: "break-word",
+                        transform: "rotate(290deg)",
+                        position: "absolute",
+                    }}
+                >
+                    {emoji}
+                </div>
+                <div
+                    style={{
+                        marginTop: "40px",
+                        marginLeft: "850px",
+                        //width: "200%",
+                        fontSize: 100,
+                        fontStyle: "normal",
+                        fontWeight: "bold",
+                        color: "#000",
+                        //padding: "0 120px",
+                        //lineHeight: 1.3,
+                        //wordWrap: "break-word",
+                        transform: "rotate(350deg)",
+                        position: "absolute",
+                    }}
+                >
+                    {emoji}
+                </div>
+                <div
+                    style={{
+                        marginTop: "490px",
+                        marginLeft: "700px",
+                        //width: "200%",
+                        fontSize: 110,
+                        fontStyle: "normal",
+                        fontWeight: "bold",
+                        color: "#000",
+                        //padding: "0 120px",
+                        //lineHeight: 1.3,
+                        //wordWrap: "break-word",
+                        transform: "rotate(30deg)",
+                        position: "absolute",
+                    }}
+                >
+                    {emoji}
+                </div>
+                <div
+                    style={{
+                        marginTop: "420px",
+                        marginLeft: "1000px",
+                        //width: "200%",
+                        fontSize: 110,
+                        fontStyle: "normal",
+                        fontWeight: "bold",
+                        color: "#000",
+                        //padding: "0 120px",
+                        //lineHeight: 1.3,
+                        //wordWrap: "break-word",
+                        transform: "rotate(340deg)",
+                        position: "absolute",
+                    }}
+                >
+                    {emoji}
+                </div>
+                <div
+                    style={{
+                        marginTop: "auto",
+                        marginBottom: "0px",
+                        marginLeft: "7px",
+                        marginRight: "7px",
+                        //width: "100%",
+                        fontSize: 50,
+                        fontStyle: "normal",
+                        fontWeight: "bold",
+                        color: "#000",
                     }}
                 >
                     {title}
                 </div>
                 <div
                     style={{
+                        margin: "auto",
+                        marginTop: "0px",
                         //width: "100%",
                         fontSize: 30,
                         fontStyle: "normal",
                         fontWeight: "bold",
                         color: "#000",
-                        padding: "0 120px",
-                        lineHeight: 1.3,
                     }}
                 >
                     {date}
+
                 </div>
+
             </div>
         ),
         {
             width: 1200,
-            height: 600,
+            height: 630,
             emoji: 'twemoji',
-            fonts: [
-                {
-                    name: "IBMPlexSansJP",
-                    data: fontData,
-                    style: "normal",
-                },
-            ],
+
         }
     );
 }
