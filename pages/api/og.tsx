@@ -1,5 +1,6 @@
 import { ImageResponse } from "@vercel/og";
 import { NextRequest } from "next/server";
+export const PROD_URL = process.env.PROD_URL;
 import fs from 'fs'
 
 export const config = {
@@ -35,7 +36,7 @@ export default async function (req: NextRequest) {
         (
             <div
                 style={{
-                    backgroundImage: "url(https://blog.haru0u0.com/assets/og-bg.png)",
+                    backgroundImage: "url(`${PROD_URL}/assets/og-bg.png`)",
                     backgroundColor: "#FFAABB",
                     backgroundSize: "100% 100%",
                     height: "100%",

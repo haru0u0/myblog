@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import DateFormatter from './date-formatter'
 import CoverImage from './cover-image'
+export const PROD_URL = process.env.PROD_URL;
 
 type Props = {
     title: string
@@ -30,17 +31,17 @@ const Seo = ({
             <meta name="description" content={description} />
             <meta property="og:title" content={title} />
             <meta property="og:site_name" content={title} />
-            <meta property="og:url" content={`https://blog.haru.ing/${path}`} />
+            <meta property="og:url" content={`${PROD_URL}/${path}`} />
             <meta property="og:description" content={description} />
             <meta property="og:type" content="website" />
-            <meta property="og:image" content={`https://haru-blog-chi.vercel.app/api/og?title=${title}&emoji=${emoji}&date=${date}`} />
+            <meta property="og:image" content={`${PROD_URL}/api/og?title=${title}&emoji=${emoji}&date=${date}`} />
 
             <meta name="twitter:card" content="summary_large_image" />
             <meta property="twitter:domain" content="haru-blog-chi.vercel.app" />
-            <meta property="twitter:url" content={`https://blog.haru.ing/${path}`} />
+            <meta property="twitter:url" content={`${PROD_URL}/${path}`} />
             <meta name="twitter:title" content="{title}" />
             <meta name="twitter:description" content={description} />
-            <meta name="twitter:image" content={`https://haru-blog-chi.vercel.app/api/og?title=${title}&emoji=${emoji}&date=${date}`} />
+            <meta name="twitter:image" content={`${PROD_URL}/api/og?title=${title}&emoji=${emoji}&date=${date}`} />
         </Head>
     );
 };
