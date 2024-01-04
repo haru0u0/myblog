@@ -63,7 +63,6 @@ export default async function (req: NextRequest) {
                         //wordWrap: "break-word",
                         transform: "rotate(30deg)",
                         position: "absolute",
-                        opacity: "0.8",
                     }}
                 >
                     {emoji}
@@ -82,7 +81,24 @@ export default async function (req: NextRequest) {
                         //wordWrap: "break-word",
                         transform: "rotate(170deg)",
                         position: "absolute",
-                        opacity: "0.8",
+                    }}
+                >
+                    {emoji}
+                </div>
+                <div
+                    style={{
+                        marginTop: "480px",
+                        marginLeft: "250px",
+                        //width: "200%",
+                        fontSize: 60,
+                        fontStyle: "normal",
+                        fontWeight: "bold",
+                        color: "#000",
+                        //padding: "0 120px",
+                        //lineHeight: 1.3,
+                        //wordWrap: "break-word",
+                        transform: "rotate(340deg)",
+                        position: "absolute",
                     }}
                 >
                     {emoji}
@@ -101,7 +117,6 @@ export default async function (req: NextRequest) {
                         //wordWrap: "break-word",
                         transform: "rotate(290deg)",
                         position: "absolute",
-                        opacity: "0.8",
                     }}
                 >
                     {emoji}
@@ -109,7 +124,7 @@ export default async function (req: NextRequest) {
                 <div
                     style={{
                         marginTop: "40px",
-                        marginLeft: "850px",
+                        marginLeft: "950px",
                         //width: "200%",
                         fontSize: 80,
                         fontStyle: "normal",
@@ -120,7 +135,6 @@ export default async function (req: NextRequest) {
                         //wordWrap: "break-word",
                         transform: "rotate(350deg)",
                         position: "absolute",
-                        opacity: "0.8",
                     }}
                 >
                     {emoji}
@@ -139,7 +153,6 @@ export default async function (req: NextRequest) {
                         //wordWrap: "break-word",
                         transform: "rotate(30deg)",
                         position: "absolute",
-                        opacity: "0.8",
                     }}
                 >
                     {emoji}
@@ -158,7 +171,6 @@ export default async function (req: NextRequest) {
                         //wordWrap: "break-word",
                         transform: "rotate(340deg)",
                         position: "absolute",
-                        opacity: "0.8",
                     }}
                 >
                     {emoji}
@@ -177,11 +189,11 @@ export default async function (req: NextRequest) {
                         //wordWrap: "break-word",
                         transform: "rotate(10deg)",
                         position: "absolute",
-                        opacity: "0.8",
                     }}
                 >
                     {emoji}
                 </div>
+
                 <div
                     style={{
                         margin: "auto",
