@@ -1,7 +1,7 @@
 ---
 title: 'めちゃローカル話：ブリストル大学の住むとこ選び'
 date: '2023-05-13'
-emoji: "🏠︎"
+emoji: "🏠"
 ogImage:
   url: '/assets/blog/preview/cover.jpg'
 tags:
