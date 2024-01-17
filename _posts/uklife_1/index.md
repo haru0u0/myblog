@@ -1,7 +1,7 @@
 ---
 title: 'イギリス家探し'
 date: '2023-12-31'
-emoji: "🏘️"
+emoji: "🏠"
 ogImage:
   url: '/assets/blog/preview/cover.jpg'
 tags:
