@@ -343,7 +343,7 @@
 }
 
 .znc span.embed-block:not([class*="embed-youtube"]) {
-    @apply shadow-sm bg-myblue transition ease-in-out delay-150 hover:translate-y-2 hover:shadow-none;
+    @apply shadow-sm transition ease-in-out delay-150 hover:translate-y-2 hover:shadow-none;
     display: block;
     width: 100%;
     margin: 1.5rem 0;
