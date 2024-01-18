@@ -37,22 +37,14 @@ tags:
 
 学生寮に住んでいますが、大学まで徒歩30分（しかもただの道ではなくて超坂）、バスでも30分です。遠い。あと、新しい建物なのになぜか頻繁に断水が発生するのが謎で、とても困ります。北向きで暗いのも鬱ポイント高いです。あと、キッチンが超狭く、特に冷蔵庫がビジネスホテルサイズなのが困ります。それから、洗濯機＋乾燥機で£8かかります、つらい。最近は慣れてきましたが、、、。
 
-![Untitled](/assets/blog/posts/ukgrad_7/2.png)
-
-![20221002112633_IMG_1382.JPG](/assets/blog/posts/ukgrad_7/20221002112633_IMG_1382.jpg)
-
-![Untitled.png](/assets/blog/posts/ukgrad_7/Untitled2.png)
+![Untitled](/assets/blog/posts/ukgrad_7/2.png) ![20221002112633_IMG_1382.JPG](/assets/blog/posts/ukgrad_7/20221002112633_IMG_1382.jpg) ![Untitled.png](/assets/blog/posts/ukgrad_7/Untitled2.png)
 
 
 ## 街
 
 坂が多すぎてしんどいですが、きれいです。
 
-![20220919114201_IMG_1282.JPG](/assets/blog/posts/ukgrad_7/20220919114201_IMG_1282.jpg)
-
-![20220930100452_IMG_1367.JPG](/assets/blog/posts/ukgrad_7/20220930100452_IMG_1367.jpg)
-
-![-x6rj30.jpg](/assets/blog/posts/ukgrad_7/-x6rj30.jpg)
+![20220919114201_IMG_1282.JPG](/assets/blog/posts/ukgrad_7/20220919114201_IMG_1282.jpg) ![20220930100452_IMG_1367.JPG](/assets/blog/posts/ukgrad_7/20220930100452_IMG_1367.jpg) ![-x6rj30.jpg](/assets/blog/posts/ukgrad_7/-x6rj30.jpg)
 
 
 ## 大学
@@ -65,15 +57,7 @@ tags:
 
 一年しか在学生で居れないのだから、積極的に図書館とか使って、存分に堪能しようと思います。と思いつつ、いまのところはほぼ家に引きこもっています。
 
-![/assets/blog/posts/ukgrad_7/20220922075849_IMG_1326.jpg](/assets/blog/posts/ukgrad_7/20220922075849_IMG_1326.jpg)
-
-![Untitled](/assets/blog/posts/ukgrad_7/Untitled3.png)
-
-![Untitled](/assets/blog/posts/ukgrad_7/Untitled4.png)
-
-![/assets/blog/posts/ukgrad_7/20220921074443_IMG_1305.jpg](/assets/blog/posts/ukgrad_7/20220921074443_IMG_1305.jpg)
-
-![Untitled](/assets/blog/posts/ukgrad_7/Untitled5.png)
+![/assets/blog/posts/ukgrad_7/20220922075849_IMG_1326.jpg](/assets/blog/posts/ukgrad_7/20220922075849_IMG_1326.jpg) ![Untitled](/assets/blog/posts/ukgrad_7/Untitled3.png) ![Untitled](/assets/blog/posts/ukgrad_7/Untitled4.png) ![/assets/blog/posts/ukgrad_7/20220921074443_IMG_1305.jpg](/assets/blog/posts/ukgrad_7/20220921074443_IMG_1305.jpg) ![Untitled](/assets/blog/posts/ukgrad_7/Untitled5.png)
 
 
 ## ともだち
