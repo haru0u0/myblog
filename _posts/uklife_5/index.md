@@ -1,5 +1,5 @@
 ---
-title: 'Graduate Visa申請'
+title: 'Graduate Visa申請のあれこれ'
 date: '2024-03-02'
 emoji: "💐"
 ogImage:
