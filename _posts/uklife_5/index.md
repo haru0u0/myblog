@@ -43,15 +43,15 @@ Visa申請料として£822、2年分のImmigration Health Surchargeとして£1
 
 ## 申請が受理されるまでは働けるの？
 
-申請が受理されるまでは、学生ビザで滞在することになります。イギリスの学生ビザは、term-timeは20hまで、term-time外はフルタイムで勤務することができます。<br><br>
+申請が受理されるまでは、学生ビザで滞在することになります。イギリスの学生ビザは、term-timeは20hまで、term-time外はフルタイムで勤務することができます。<br>
 
-...、ということは修論を書き終わったらterm-timeは終わるので、そこから正社員として働けるのだなあ～？と思いますよね？ここがトリッキーなのですが、実は学生ビザで許可されているfull-time勤務というのは、あくまで期限付き契約のもののみで、permanent positionは許可されていません。<br>
+...、ということは修論を書き終わったらterm-timeは終わるので、そこから正社員として働けるのだなあ～？と思いますよね？ここがトリッキーなのですが、実は学生ビザで許可されているfull-time勤務というのは、あくまで期限付き/temporary契約のもののみで、permanent positionは許可されていません。<br>
 
 permanent positionでの就労が許可されるのは、「Graduation Visaの申請をしてから」です。とはいえ、「申請をした」という事実はshare codeのページ（イギリスで移民として就労する際に、自身のright to workを証明するために雇用主に共有するweb上のprofile）には特に反映されないので、実質的にpermanentで働けるのは、graduate visaが正式に承認されてから、かなと思います。<br>
 
 このため、大学/大学院卒業後にgraduate visaでfull-time勤務を目指している場合には、以下のどれかになると考えるといいと思います。
 
-1. コース修了～graduate visa承認までの期間はFTC（Fixed Term Contract、有期契約）で、grad visa取得後にpermanentに切り替えてもらうように交渉する
+1. コース修了～graduate visa承認までの期間はFTC（Fixed Term Contract、有期契約）/temporaryで、grad visa取得後にpermanentに切り替えてもらうように交渉する
 2. 最初からFTCのポジションを狙う
 3. grad visaをもらってからpermanentで就労開始する
 
