@@ -1,7 +1,7 @@
 ---
 title: 'Graduate Visa申請'
 date: '2024-03-02'
-emoji: "🦥"
+emoji: "💐"
 ogImage:
   url: '/assets/blog/preview/cover.jpg'
 tags:
@@ -57,9 +57,8 @@ permanent positionでの就労が許可されるのは、「Graduation Visaの�
 
 ## 参考
 
-ImperialのGraduate Visaに関するページが比較的丁寧でわかりやすかったので、貼っておきます。
-
-https://www.imperial.ac.uk/students/international-students/visas-and-immigration/working-in-the-uk/working-in-the-uk-after-your-studies/graduate-visa/
+[ImperialのGraduate Visaに関するページ](https://www.imperial.ac.uk/students/international-students/visas-and-immigration/working-in-the-uk/working-in-the-uk-after-your-studies/graduate-visa/
+)が比較的丁寧でわかりやすかったので、申請予定の方はぜひ読んでみてください。
 
 ## おわりです
 
