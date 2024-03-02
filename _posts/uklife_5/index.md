@@ -1,11 +1,11 @@
 ---
-title: 'イギリスGraduate Visa申請の諸々'
+title: 'Graduate Visa申請'
 date: '2024-03-02'
-emoji: "👔"
+emoji: "🦥"
 ogImage:
   url: '/assets/blog/preview/cover.jpg'
 tags:
-  - "イギリス暮らし"
+  - "イギリス大学院"
 ---
 
 ## はじめに
@@ -24,7 +24,7 @@ Graduate Visaについて在学中よくわかってなかったなあ～と思�
 
 ## 申請はいつできる？
 
-コースの修了が決まってから数日～数週間後に大学からのメールがを受け取ったタイミングから、学生ビザが切れるまで。<br>
+コースの修了が決まってから数日～数週間後（大学からメールが来ます）から、学生ビザが切れるまで。<br>
 ※学生ビザが切れるまでに「申請」すればオーケー。
 
 ## いくらかかった？
@@ -34,7 +34,7 @@ Visa申請料として£822、2年分のImmigration Health Surchargeとして£1
 
 ## 申請のときにはなにが必要？
 
-基本的に入力する内容はほぼ学生ビザのときと同じだったと記憶しています（旅行歴など）。それにプラスして、わたしは追加書類として以下の提出を求められました。
+基本的に入力する内容はほぼ学生ビザのときと同じだったと記憶しています（旅行歴など）。それにプラスして、わたしは追加書類として以下の提出を求められました。申請者の状況によって求められる追加書類は異なるようです。
 
 - 奨学金団体からのGraduate Visa申請を承認する旨を記したレター
   - 大学やイギリス政府系の奨学金以外で、フルカバーの奨学金をもらっている人は求められると思われます。
@@ -54,6 +54,12 @@ permanent positionでの就労が許可されるのは、「Graduation Visaの�
 1. コース修了～graduate visa承認までの期間はFTC（Fixed Term Contract、有期契約）で、grad visa取得後にpermanentに切り替えてもらうように交渉する
 2. 最初からFTCのポジションを狙う
 3. grad visaをもらってからpermanentで就労開始する
+
+## 参考
+
+ImperialのGraduate Visaに関するページが比較的丁寧でわかりやすかったので、貼っておきます。
+
+https://www.imperial.ac.uk/students/international-students/visas-and-immigration/working-in-the-uk/working-in-the-uk-after-your-studies/graduate-visa/
 
 ## おわりです
 
