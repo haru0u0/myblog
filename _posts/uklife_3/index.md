@@ -1,6 +1,6 @@
 ---
 title: ''23イギリス大学院生の現地就活記録'
-date: '2024-02-12'
+date: '2024-03-03'
 emoji: "🎉"
 ogImage:
   url: '/assets/blog/preview/cover.jpg'
