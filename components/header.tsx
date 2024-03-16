@@ -34,11 +34,15 @@ const Header = () => {
                   <Link href="/tags/イギリス暮らし" className="block py-2 px-3 border-b-2 border-black md:border-0 md:p-0"><Twemoji emoji="🇬🇧" />&nbsp;暮らし</Link>
                 </li>
                 <li className="md:border-0 md:p-3 hover:bg-myblue" style={{ marginLeft: 0 + 'em' }}>
-                  <Link href="/tags/42" className="block py-2 px-3 border-b-2 border-black md:border-0 md:p-0"><Twemoji emoji="👩🏻‍💻" />&nbsp;42</Link>
-                </li>
-                <li className="md:border-0 md:p-3 hover:bg-myblue" style={{ marginLeft: 0 + 'em' }}>
                   <Link href="/tags/つぶやき" className="block py-2 px-3 border-b-2 border-black md:border-0 md:p-0"><Twemoji emoji="🧠" />&nbsp;つぶやき</Link>
                 </li>
+                <li className="md:border-0 md:p-3 hover:bg-myblue" style={{ marginLeft: 0 + 'em' }}>
+                  <Link href="/tags/イギリス大学院" className="block py-2 px-3 border-b-2 border-black md:border-0 md:p-0"><Twemoji emoji="🇬🇧" />&nbsp;大学院</Link>
+                </li>
+                <li className="md:border-0 md:p-3 hover:bg-myblue" style={{ marginLeft: 0 + 'em' }}>
+                  <Link href="/tags/アメリカ交換留学" className="block py-2 px-3 border-b-2 border-black md:border-0 md:p-0"><Twemoji emoji="🇺🇸" />&nbsp;交換留学</Link>
+                </li>
+                {/*
                 <li className="hover:bg-myblue md:p-3" style={{ marginLeft: 0 + 'em' }}>
                   <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" className="flex items-center justify-start py-2 px-3 w-full border-b-2 border-black md:border-0 md:p-0">
                     <Twemoji emoji="👩🏻‍🎓" />&nbsp;アーカイブ<svg className="w-2.5 h-2.5 ms-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
@@ -55,8 +59,9 @@ const Header = () => {
                     </ul>
                   </div>
                 </li>
+                */}
                 <li className="md:border-0 md:p-3 hover:bg-myblue rounded-b-lg md:rounded-none" style={{ marginLeft: 0 + 'em' }}>
-                  <Link href="/about" className="block py-2 px-3 border-black md:border-0 md:p-0"><Twemoji emoji="🥰" />&nbsp;わたし</Link>
+                  <Link href="/about" className="block py-2 px-3 border-black md:border-0 md:p-0"><Twemoji emoji="🥰" />&nbsp;about</Link>
                 </li>
               </ul>
             </div>

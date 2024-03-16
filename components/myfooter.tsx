@@ -13,13 +13,17 @@ const Myfooter = () => {
         <div>
           <RiCopyrightLine className="inline" />&nbsp;2023 haru
         </div>
-        &nbsp;&nbsp;<Link href="https://twitter.com/haru0u0_" target="blank" className="inline"><BsTwitter /></Link>
       </div>
+      <div className="flex justify-right">
+        <Link href="https://twitter.com/haru0u0_" target="blank" className="inline"><BsTwitter /></Link>
+      </div>
+      {/*
       <div className="flex justify-right">
         <Link href="/privacypolicy">
           Privacy Policy
         </Link>
       </div>
+      */}
     </div>
   );
 }

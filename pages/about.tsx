@@ -30,15 +30,19 @@ export default function About() {
           <div className="flex-grow max-w-full min-h-screen">
             <Header />
             <h1 className="m-8 text-lg font-IBMjp font-bold tracking-tighter leading-tight tag flex justify-center">
-              # about
+              # だれ？
             </h1>
             <img className="h-auto mx-auto rounded-lg max-w-xs border-2 border-black shadow-sm md:shadow-md" src="/assets/profile.png"></img>
             <div className="my-8 font-IBMjp text-center flex justify-center">
-              こんにちは！97年うまれのharuです。<br /><br />
-              22年09月からイギリスで暮らしています。<br /><br />
-              好きな食べ物はチーズと納豆とズッキーニ。<br /><br />
-              好きな動物はお犬です。ワンワン。ワン。<br /><br />
-              教育とテクノロジーに関心があります。
+              97年うまれです。22年09月からイギリスで暮らしています。<br /><br />
+              チーズと犬が好きです。<br /><br />
+              教育とテクノロジーに関心があります。<br /><br /><br /><br />
+            </div>
+            <h1 className="m-8 text-lg font-IBMjp font-bold tracking-tighter leading-tight tag flex justify-center">
+              # プライバシーポリシー
+            </h1>
+            <div className="my-8 font-IBMjp text-center flex justify-center">
+              当サイトは、Googleによるアクセス解析ツール Google Analytics を使用しています。データはCookieを使用し、匿名で収集されています。データ収集を停止したい場合は、お使いのブラウザでCookieを無効に設定してください。この規約に関しての詳細は、Googleアナリティクスサービス利用規約のページをご覧ください。<br /><br />
             </div>
           </div>
           <Myfooter />

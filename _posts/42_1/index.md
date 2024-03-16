@@ -5,7 +5,7 @@ emoji: "💻"
 ogImage:
   url: '/assets/blog/preview/cover.jpg'
 tags:
-  - "42"
+  - "イギリス暮らし"
 ---
 
 ## はじめに 
