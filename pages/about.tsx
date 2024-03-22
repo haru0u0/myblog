@@ -34,7 +34,8 @@ export default function About() {
             </h1>
             <img className="h-auto mx-auto rounded-lg max-w-xs border-2 border-black shadow-sm md:shadow-md" src="/assets/profile.png"></img>
             <div className="my-8 font-IBMjp text-center flex justify-center">
-              97年うまれです。22年09月からイギリスで暮らしています。<br /><br />
+              97年うまれです。<br /><br />
+              22年09月からイギリスで暮らしています。<br /><br />
               チーズと犬が好きです。<br /><br />
               教育とテクノロジーに関心があります。<br /><br /><br /><br />
             </div>
