@@ -1,7 +1,7 @@
 ---
 title: '英国就活の応募書類'
 date: '2024-03-22'
-emoji: "📃"
+emoji: "📄"
 ogImage:
   url: '/assets/blog/preview/cover.jpg'
 tags:
