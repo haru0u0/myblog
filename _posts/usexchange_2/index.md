@@ -15,15 +15,13 @@ tags:
 ## 大学のキャンパス
 
 わたしが主に授業を受けている社会学の校舎はここ。
+
 ![1](/assets/blog/posts/usexchange_2/1.jpg)
 
 
 ぜんぶ建物は素敵だと思います。
-![2](/assets/blog/posts/usexchange_2/2.jpg)
 
-![3](/assets/blog/posts/usexchange_2/3.jpg)
-
-![4](/assets/blog/posts/usexchange_2/4.jpg)
+![2](/assets/blog/posts/usexchange_2/2.jpg) ![3](/assets/blog/posts/usexchange_2/3.jpg) ![4](/assets/blog/posts/usexchange_2/4.jpg)
 
 ## 住んでいるところ
 
@@ -32,21 +30,27 @@ tags:
 そんなに家賃をとっておきながら、洗濯機乾燥機に各１５０円ずつとるんですよ？？？？毎週３００円減るの地味にイライラする～～～～。
 
 ハウスメイトがキラキラにしたリビング。
+
 ![5](/assets/blog/posts/usexchange_2/5.jpg)
 
 ベッドルーム。汚いほうが私のゾーンです。
+
 ![6](/assets/blog/posts/usexchange_2/6.jpg)
 
 ハンモックエリアとか外にあっていい感じです。三半規管が死んでいる私にはハンモックはハイレベルな乗り物でした。かなしい。
+
 ![7](/assets/blog/posts/usexchange_2/7.jpg)
 
 自然が豊かでですね、、、、鹿がいます、、。
+
 ![8](/assets/blog/posts/usexchange_2/8.jpg)
 
 鹿注意！
+
 ![9](/assets/blog/posts/usexchange_2/9.jpg)
 
 リスは野良猫のようにいる。日本で野良猫の写真を撮ってる外国人ってこんな気持ちなんだな、と思いながら撮ってきた写真。
+
 ![10](/assets/blog/posts/usexchange_2/10.jpg)
 
 ## 気候について（というか、頭痛について）
@@ -58,6 +62,7 @@ tags:
 日本人はめちゃめちゃ少ない、というかまず留学生が少なくて、全校生徒17000人のうち留学生120人くらい。日本人は法政からの交換留学生しかいない！！留学生少ないとは聞いていたけど、こんなにとは、、、ってかんじ。さみしいです。
 
 視点を変えてアメリカが濃いのでよかったねというテンションで生きたい。
+
 ![11](/assets/blog/posts/usexchange_2/11.png)
 
 -----
