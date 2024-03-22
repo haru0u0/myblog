@@ -25,25 +25,22 @@ tags:
 就職活動は書類選考を2パスし、内定は1でした。本記事でシェアしているのは、書類選考はパスしたけど内定は出なかったところの応募書類です。
 内定出たところの応募書類よりこちらの方が完成度が高いと思っているのでこちらをシェアします。いじわるじゃないです。
 
-## Job Description
+## 応募したポジションのJob Description
 
-**The company**
-
+```
+[ The company ]
 We use AI and engaging visuals to provide affordable education to all children, regardless of background. Our team is remote-first, composed of XXX people working from all over the world.
 
-**The role**
-
+[ The role ]
 As a Graduate Learning Designer, you will create learning contents following content specifications and brand guidelines. You will also help our project management planning.
 
-**What you will do**
-
+[ What you will do ]
 - Work within a team to provide all child access to the exam preparation resources
 - Research and develop Reading Comprehension, Verbal Reasoning and Spelling, Punctuation and Grammar assessment content for KS1, KS2 and KS3;
 - Create, edit, revise and proofread assessment content;
 - Update, brief and collaborate with teams across the company to provide the highest quality education
 
-**Who you are**
-
+[ Who you are ]
 - You are a recent graduate with a degree in English or Linguistics OR a recent graduate with teaching experience;
 - Fast learner with an aptitude for new technologies;
 - Teamwork skills;
@@ -54,10 +51,11 @@ As a Graduate Learning Designer, you will create learning contents following con
 - Skills in visual design tools, such as Figma
 - Experience in SATs exam preparation
 - Experience designing learning materials for children aged 5-12
+```
 
 ## カバーレター
 
-![カバーレター](/assets/blog/posts/uklife_7/1.jpg)
+![カバーレター](/assets/blog/posts/uklife_7/1.png)
 
 カバーレターは、以下の2点を目標に、JD内の単語をちりばめながら（探してみてください）、書きました。
 1. 志望動機を伝える　
@@ -70,7 +68,7 @@ As a Graduate Learning Designer, you will create learning contents following con
 
 ## CV
 
-![CV](/assets/blog/posts/uklife_7/2.jpg)
+![CV](/assets/blog/posts/uklife_7/2.png)
 
 ### ABOUT
 
