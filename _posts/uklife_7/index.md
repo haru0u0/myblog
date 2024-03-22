@@ -55,12 +55,31 @@ As a Graduate Learning Designer, you will create learning contents following con
 
 ## カバーレター
 
-![カバーレター](/assets/blog/posts/uklife_7/1.png)
+```
+Dear Hiring Manager,
+
+I am writing to convey my enthusiasm for the Graduate Learning Designer vacancy at XXX. As a recent graduate with teaching experience, I am well-equipped with the skills required to actively contribute to XXX's mission of providing affordable education to all children, regardless of background.
+
+My aspiration to join XXX is deeply rooted in a personal connection to its mission, resonating with the founders' frustration with the inaccessibility of private tuition. Due to financial constraints within my family, I couldn't afford private tutoring, and online learning services played a crucial role in my exam preparation. This experience has fueled my motivation to contribute towards ensuring that every child has access to a quality education through digital technology. Recently, I had the opportunity to explore one of your products, XXXXX(Product’s name), and I was captivated by the interactive and tailored learning experience with diverse content and engaging visuals (Christmas-themed home page was very cute!). This further solidified my conviction that contributing to XXX is the perfect avenue to positively impact children's education.
+
+During my undergraduate studies, I completed courses in Linguistics and English, supplementing my understanding of the English language. Furthermore, my postgraduate studies in learning technology have equipped me with a comprehensive understanding of learning science and provided the opportunity to apply this knowledge to practical learning design projects, including the design of educational apps and curriculum development. These backgrounds position me well to develop assessment materials on English language proficiency, covering areas such as reading comprehension, verbal reasoning, and proficiency in spelling, punctuation, and grammar.
+
+My several years of professional experience in teaching and digital learning have provided me with hands-on expertise in creating effective digital learning resources, such as project management and teamwork skills. As a fast learner with an aptitude for new technologies, I have actively honed proficiency in various new technologies quickly throughout my professional career, including Figma, Adobe XD, MS Office etc.  I am enthusiastic about contributing these skills and knowledge to a company that aligns with my values and goals.
+
+One of the aspects that excites me to work with you is the opportunity to work remotely. Valuing flexibility and a healthy work-life balance, I am confident that a remote work arrangement would enhance my productivity and focus. Having prior experience working remotely at my former company, I possess the necessary skills and discipline to excel in this role. While acknowledging potential communication challenges, I am proactive and committed to maintaining seamless remote collaboration.
+
+Thank you for your time and consideration. I am looking forward to speaking with you further, and am even more excited to bring a high-quality learning experience to children at XXX. Please refer to the attached CV and do not hesitate to reach out if you have any questions. 
+
+Sincerely,
+Haru Tanaka
+```
+
 
 カバーレターは、以下の2点を目標に、JD内の単語をちりばめながら（探してみてください）、書きました。
 1. 志望動機を伝える　
 2. わたしのキャリアの中にある諸々の点を、応募している職に繋がるように、線でつなげてあげる（相手が勝手にうまく線を引いてくれることを期待しない）（伝わらないかも、すみません）
 
+<br>
 と言っても、私はほとんどの会社はCVのみ提出しており、カバーレターを提出したのは就活後半に受けた数社のみです。<br>
 私はCVをカスタマイズするだけで数日費やしてしまうスローモーションの民だったため、就活序盤はカバーレターまで書く余裕がなかったです。ただ、カバーレターも意外と一個書いてしまえばコツをつかんで、あまり時間かからずかけるようになったので、最初から頑張って書いておいても良かったなあ～と思いました。<br>
 カバーレターを作成する際は、[Lazy ApplyというサイトのAI Generator](https://lazyapply.com/cover-letter-generator
@@ -107,6 +126,8 @@ certificatesのセクションについては、就活時期はまだ「certific
 
 - わたしは大学院以外にイギリスでの経験がなかったため、Education, Professional Experience欄には一切ロケーションを記載しませんでした。
 - Education欄とProfessional Experienceの欄の順番は、応募している職にあわせて入れ替えてました。本応募は、Graduateポジションへの応募だったのでEducationを上に持ってきていますが、Graduateポジション以外であればProfessional Experienceを上に置いていました。
+- レイアウトはシンプルイズベストかなと思って、ずっとこの見た目で出してました（フォントくらいは変えてるかも）。
+- 余白を縦横ともに10~5mmくらいのかなり狭めにセットして、一枚にすべて収まるようにしてました😚
 
 ## おわりだよ
 
