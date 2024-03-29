@@ -11,7 +11,8 @@ type Props = {
 
 const CoverImage = ({ title, emoji, slug }: Props) => {
   const codePoint = twemoji.convert.toCodePoint(emoji);
-  const url = `https://twemoji.maxcdn.com/v/latest/svg/${codePoint.split('-')[0]}.svg`;
+  //const url = `https://twemoji.maxcdn.com/v/latest/svg/${codePoint.split('-')[0]}.svg`;
+  const url = `https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/svg/${codePoint.split('-')[0]}.svg`;
   const image = (
     <Image
       src={url}

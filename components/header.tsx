@@ -6,6 +6,7 @@ import Twemoji from '../lib/Twemoji'
 import Script from 'next/script'
 import { RiHomeHeartFill } from "react-icons/ri";
 import { PiStudentFill } from "react-icons/pi";
+//import { parse } from 'twemoji-parser';
 
 const Header = () => {
   return (
@@ -28,19 +29,19 @@ const Header = () => {
             <div className="hidden w-full md:block md:w-auto md:bg-mypink" id="navbar-dropdown">
               <ul className="flex flex-col font-medium my-4 md:flex-row md:my-0 md:text-sm md:space-x-8 md:rtl:space-x-reverse md:bg-transparent border-2 border-black shadow-sm rounded-lg md:border-0 md:shadow-none bg-white">
                 <li className="border-b-2 border-black hover:bg-myblue rounded-t-lg md:rounded-none md:border-0 md:p-3">
-                  <Link href="/" className="block py-2 px-3 text-black rounded md:p-0 md:m-0" aria-current="page"><Twemoji emoji="🏠" />&nbsp;ホーム</Link>
+                  <Link href="/" className="inline-flex align-center block py-2 px-3 text-black rounded md:p-0 md:m-0" aria-current="page"><Twemoji emoji="🏠" />&nbsp;ホーム</Link>
                 </li>
                 <li className="md:border-0 md:p-3 hover:bg-myblue" style={{ marginLeft: 0 + 'em' }}>
-                  <Link href="/tags/イギリス暮らし" className="block py-2 px-3 border-b-2 border-black md:border-0 md:p-0"><Twemoji emoji="🇬🇧" />&nbsp;暮らし</Link>
+                  <Link href="/tags/イギリス暮らし" className="inline-flex align-center block py-2 px-3 border-b-2 border-black md:border-0 md:p-0"><Twemoji emoji="🇬🇧" />&nbsp;暮らし</Link>
                 </li>
                 <li className="md:border-0 md:p-3 hover:bg-myblue" style={{ marginLeft: 0 + 'em' }}>
-                  <Link href="/tags/つぶやき" className="block py-2 px-3 border-b-2 border-black md:border-0 md:p-0"><Twemoji emoji="🧠" />&nbsp;つぶやき</Link>
+                  <Link href="/tags/つぶやき" className="inline-flex align-center block py-2 px-3 border-b-2 border-black md:border-0 md:p-0"><Twemoji emoji="🧠" />&nbsp;つぶやき</Link>
                 </li>
                 <li className="md:border-0 md:p-3 hover:bg-myblue" style={{ marginLeft: 0 + 'em' }}>
-                  <Link href="/tags/イギリス大学院" className="block py-2 px-3 border-b-2 border-black md:border-0 md:p-0"><Twemoji emoji="🇬🇧" />&nbsp;大学院</Link>
+                  <Link href="/tags/イギリス大学院" className="inline-flex align-center block py-2 px-3 border-b-2 border-black md:border-0 md:p-0"><Twemoji emoji="🇬🇧" />&nbsp;大学院</Link>
                 </li>
                 <li className="md:border-0 md:p-3 hover:bg-myblue" style={{ marginLeft: 0 + 'em' }}>
-                  <Link href="/tags/アメリカ交換留学" className="block py-2 px-3 border-b-2 border-black md:border-0 md:p-0"><Twemoji emoji="🇺🇸" />&nbsp;交換留学</Link>
+                  <Link href="/tags/アメリカ交換留学" className="inline-flex align-center block py-2 px-3 border-b-2 border-black md:border-0 md:p-0"><Twemoji emoji="🇺🇸" />&nbsp;交換留学</Link>
                 </li>
                 {/*
                 <li className="hover:bg-myblue md:p-3" style={{ marginLeft: 0 + 'em' }}>
@@ -61,7 +62,7 @@ const Header = () => {
                 </li>
                 */}
                 <li className="md:border-0 md:p-3 hover:bg-myblue rounded-b-lg md:rounded-none" style={{ marginLeft: 0 + 'em' }}>
-                  <Link href="/about" className="block py-2 px-3 border-black md:border-0 md:p-0"><Twemoji emoji="🥰" />&nbsp;about</Link>
+                  <Link href="/about" className="inline-flex align-center block py-2 px-3 border-black md:border-0 md:p-0"><Twemoji emoji="🥰" />&nbsp;about</Link>
                 </li>
               </ul>
             </div>
