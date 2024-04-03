@@ -31,17 +31,17 @@ const Header = () => {
                 <li className="border-b-2 border-black hover:bg-myblue rounded-t-lg md:rounded-none md:border-0 md:p-3">
                   <Link href="/" className="inline-flex align-center block py-2 px-3 text-black rounded md:p-0 md:m-0" aria-current="page"><Twemoji emoji="🏠" />&nbsp;ホーム</Link>
                 </li>
-                <li className="md:border-0 md:p-3 hover:bg-myblue" style={{ marginLeft: 0 + 'em' }}>
-                  <Link href="/tags/イギリス暮らし" className="inline-flex align-center block py-2 px-3 border-b-2 border-black md:border-0 md:p-0"><Twemoji emoji="🇬🇧" />&nbsp;暮らし</Link>
+                <li className="border-b-2 border-black md:border-0 md:p-3 hover:bg-myblue" style={{ marginLeft: 0 + 'em' }}>
+                  <Link href="/tags/イギリス暮らし" className="inline-flex align-center block py-2 px-3 md:p-0"><Twemoji emoji="🇬🇧" />&nbsp;暮らし</Link>
                 </li>
-                <li className="md:border-0 md:p-3 hover:bg-myblue" style={{ marginLeft: 0 + 'em' }}>
-                  <Link href="/tags/つぶやき" className="inline-flex align-center block py-2 px-3 border-b-2 border-black md:border-0 md:p-0"><Twemoji emoji="🧠" />&nbsp;つぶやき</Link>
+                <li className="border-b-2 border-black md:border-0 md:p-3 hover:bg-myblue" style={{ marginLeft: 0 + 'em' }}>
+                  <Link href="/tags/つぶやき" className="inline-flex align-center block py-2 px-3 md:p-0"><Twemoji emoji="🧠" />&nbsp;つぶやき</Link>
                 </li>
-                <li className="md:border-0 md:p-3 hover:bg-myblue" style={{ marginLeft: 0 + 'em' }}>
-                  <Link href="/tags/イギリス大学院" className="inline-flex align-center block py-2 px-3 border-b-2 border-black md:border-0 md:p-0"><Twemoji emoji="🇬🇧" />&nbsp;大学院</Link>
+                <li className="border-b-2 border-black md:border-0 md:p-3 hover:bg-myblue" style={{ marginLeft: 0 + 'em' }}>
+                  <Link href="/tags/イギリス大学院" className="inline-flex align-center block py-2 px-3 md:p-0"><Twemoji emoji="🇬🇧" />&nbsp;大学院</Link>
                 </li>
-                <li className="md:border-0 md:p-3 hover:bg-myblue" style={{ marginLeft: 0 + 'em' }}>
-                  <Link href="/tags/アメリカ交換留学" className="inline-flex align-center block py-2 px-3 border-b-2 border-black md:border-0 md:p-0"><Twemoji emoji="🇺🇸" />&nbsp;交換留学</Link>
+                <li className="border-b-2 border-black md:border-0 md:p-3 hover:bg-myblue" style={{ marginLeft: 0 + 'em' }}>
+                  <Link href="/tags/アメリカ交換留学" className="inline-flex align-center block py-2 px-3 md:p-0"><Twemoji emoji="🇺🇸" />&nbsp;交換留学</Link>
                 </li>
                 {/*
                 <li className="hover:bg-myblue md:p-3" style={{ marginLeft: 0 + 'em' }}>
