@@ -1,6 +1,6 @@
 ---
 title: 'イギリス教育学修士の現地就職？'
-date: '2024-08-01'
+date: '2024-08-21'
 emoji: "👔"
 ogImage:
   url: '/assets/blog/preview/cover.jpg'
