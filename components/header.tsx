@@ -29,12 +29,12 @@ const Header = () => {
             </button>
             <div className="hidden w-full md:block md:w-auto md:bg-c1" id="navbar-dropdown">
               <ul className="flex flex-col font-medium my-4 md:flex-row md:my-0 md:text-sm md:space-x-8 md:rtl:space-x-reverse md:bg-transparent border-2 border-black shadow-sm rounded-lg md:border-0 md:shadow-none bg-white">
-                <NavButton path="/" emoji="🏠" text="ホーム" />
+                <NavButton path="/" emoji="🏠" text="ホーム" style="rounded-t-lg md:rounded-none" />
                 <NavButton path="/tags/イギリス暮らし" emoji="🇬🇧" text="暮らし" />
                 <NavButton path="/tags/つぶやき" emoji="🧠" text="つぶやき" />
                 <NavButton path="/tags/イギリス大学院" emoji="🇬🇧" text="大学院" />
                 <NavButton path="/tags/アメリカ交換留学" emoji="🇺🇸" text="交換留学" />
-                <NavButton path="/about" emoji="🥰" text="About" />
+                <NavButton path="/about" emoji="🥰" text="About" style="rounded-b-lg md:rounded-none" />
               </ul>
             </div>
           </div>

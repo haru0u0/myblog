@@ -20,7 +20,7 @@ const PostPreview = ({
   return (
     <>
       <div className="bg-c2 font-IBMjp transition ease-in-out delay-150 hover:translate-y-5 hover:shadow-[0px_0px_0px_rgba(0,0,0,0)] grid grid-cols-1 w-full max-w-sm border-2 md:border-4 border-black shadow-sm md:shadow-md rounded-lg">
-        <div className="w-full h-32 bg-white border-b-2 border-black">
+        <div className="w-full h-32 bg-white border-b-2 border-black rounded-t-lg">
           <div className="w-24 h-24 m-auto my-5">
             <CoverImage slug={slug} title={title} emoji={emoji} />
           </div>
