@@ -7,7 +7,7 @@ import Script from 'next/script'
 import { RiHomeHeartFill } from "react-icons/ri";
 import { PiStudentFill } from "react-icons/pi";
 //import { parse } from 'twemoji-parser';
-import NavButton from './navButton.tsx';
+import NavButton from './navButton';
 
 const Header = () => {
   return (
