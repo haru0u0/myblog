@@ -19,25 +19,29 @@ const PostPreview = ({
 }: Props) => {
   return (
     <>
-      <div className="font-IBMjp transition ease-in-out delay-150 hover:translate-y-5 hover:shadow-[0px_0px_0px_rgba(0,0,0,0)] grid grid-cols-1 place-items-center w-full max-w-sm bg-myyellow border-2 md:border-4 border-black shadow-sm md:shadow-md rounded-lg dark:bg-gray-800 dark:border-gray-700 pt-5 pb-4">
-        <div className="w-24 h-24 mb-3">
-          <CoverImage slug={slug} title={title} emoji={emoji} />
+      <div className="bg-c2 font-IBMjp transition ease-in-out delay-150 hover:translate-y-5 hover:shadow-[0px_0px_0px_rgba(0,0,0,0)] grid grid-cols-1 w-full max-w-sm border-2 md:border-4 border-black shadow-sm md:shadow-md rounded-lg">
+        <div className="w-full h-32 bg-white border-b-2 border-black">
+          <div className="w-24 h-24 m-auto my-5">
+            <CoverImage slug={slug} title={title} emoji={emoji} />
+          </div>
         </div>
-        <h3 className="m-4 text-xl font-bold text-center gray-900 dark:text-white">
-          <Link
-            as={`/posts/${slug}`}
-            href="/posts/[slug]"
-          >
-            {title}
-          </Link>
-        </h3>
-        <ul className="flex">
-          {
-            tags.map((tag) => <li className="font-bold mb-1 bg-mysky font-black border-2 border-black text-sm font-medium mr-2 px-2.5 py-0.5 rounded">{tag}</li>)
-          }
-        </ul>
-        <div className="text-sm text-black mt-2">
-          <DateFormatter dateString={date} />
+        <div className=" w-full h-full">
+          <h3 className="m-5 text-xl font-bold text-center gray-900 dark:text-white">
+            <Link
+              as={`/posts/${slug}`}
+              href="/posts/[slug]"
+            >
+              {title}
+            </Link>
+          </h3>
+          <ul className="flex justify-center w-full">
+            {
+              tags.map((tag) => <li className="font-bold mb-1 bg-c3 font-black border-2 border-black text-sm font-medium mr-2 px-2.5 py-0.5 rounded"># {tag}</li>)
+            }
+          </ul>
+          <div className="flex justify-center w-full text-sm text-black mt-2">
+            <DateFormatter dateString={date} />
+          </div>
         </div>
       </div>
     </>

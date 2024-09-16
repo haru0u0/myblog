@@ -14,7 +14,7 @@ const Myfooter = () => {
           <RiCopyrightLine className="inline" />&nbsp;2023 haru
         </div>
       </div>
-      <div className="flex justify-right">
+      <div className="flex justify-right bg-c3 p-3 border-2 border-black rounded-full shadow-xs hover:shadow-none transition ease-in-out delay-150 hover:translate-y-2">
         <Link href="https://twitter.com/haru0u0_" target="blank" className="inline"><BsTwitter /></Link>
       </div>
       {/*

@@ -25,12 +25,12 @@
 }
 
 .znc a {
-    @apply underline decoration-dashed decoration-myblue transition ease-in-out hover:decoration-wavy;
+    @apply underline decoration-dashed decoration-c3alt transition ease-in-out hover:decoration-wavy;
     /*color: #0f83fd*/
 }
 
 .znc a:not(.header-anchor-link):after {
-    @apply content-['_↗_'] text-myblue transition ease-in-out delay-150;
+    @apply content-['_↗_'] text-c3alt transition ease-in-out delay-150;
     /*color: #0f83fd*/
 }
 
@@ -110,13 +110,13 @@
 
 .znc h1,
 .znc h2 {
-    @apply border-b-2 border-black p-1 font-bold text-lg md:text-2xl before:content-['#'] before:text-myblue;
+    @apply border-b-2 border-black p-1 font-bold text-lg md:text-2xl before:content-['#'] before:text-c3alt;
     margin-top: 1.5em;
     margin-bottom: .5em
 }
 
 .znc h3{
-    @apply font-bold text-lg md:text-2xl before:content-['##'] before:text-myblue;
+    @apply font-bold text-lg md:text-2xl before:content-['##'] before:text-c3alt;
     margin-top: 2.25em;
     margin-bottom: .5em
 }
@@ -124,7 +124,7 @@
 .znc h4,
 .znc h5,
 .znc h6{
-    @apply font-bold text-base before:content-['###'] before:text-myblue;
+    @apply font-bold text-base before:content-['###'] before:text-c3alt;
     margin-top: 2.25em;
     margin-bottom: .5em
 }
@@ -306,7 +306,7 @@
 }
 
 .znc summary {
-    @apply bg-myblue;
+    @apply bg-c3;
     cursor: pointer;
     outline: 0;
     padding: .7em .7em .7em .9em;
@@ -324,7 +324,7 @@
 }
 
 .znc details[open] summary {
-    @apply bg-myblue border-b-2 border-black;
+    @apply bg-c3 border-b-2 border-black;
     border-radius: 5px 5px 0 0;
     box-shadow: none;
 }
@@ -555,7 +555,7 @@
 }
 
 .znc aside.msg {
-    @apply border-2 border-black bg-myblue;
+    @apply border-2 border-black bg-c3;
     display: flex;
     align-items: flex-start;
     margin: 1.5rem 0;
@@ -575,7 +575,7 @@
 }
 
 .znc .msg-symbol {
-    @apply bg-myyellow border-2 border-black;
+    @apply bg-c2 border-2 border-black;
     display: flex;
     align-items: center;
     justify-content: center;

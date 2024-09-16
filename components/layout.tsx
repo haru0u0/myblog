@@ -23,7 +23,7 @@ const Layout = ({ preview, children }: Props) => {
   return (
     <>
       <Meta />
-      <div className="bg-mypink">
+      <div className="bg-c1">
         <div className="flex flex-col min-h-screen">
           <main className={`${IBMPlexSansJP.variable} ${IBMPlexSans.variable}`}>{children}</main>
         </div>

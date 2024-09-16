@@ -12,6 +12,7 @@ import { CMS_NAME } from '../lib/constants'
 import Post from '../interfaces/post'
 import Twemoji from '../lib/Twemoji'
 import Seo from '../components/seo';
+import Title from '../components/title'
 
 type Props = {
   allPosts: Post[]
@@ -33,11 +34,9 @@ export default function Index({ allPosts }: Props) {
           <title>{`haru blog`}</title>
         </Head>
         <Container>
-          <div className="flex-grow min-h-screen">
+          <div className="flex-grow">
             <Header />
-            <h1 className="m-8 text-lg font-IBMjp font-bold tracking-tighter leading-tight tag flex justify-center">
-              # 最近の投稿
-            </h1>
+            <Title text="最近の投稿" />
             {morePosts.length > 0 && <MoreStories posts={morePosts} />}
           </div>
           <Myfooter />

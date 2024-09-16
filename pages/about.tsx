@@ -11,6 +11,7 @@ import Post from '../interfaces/post'
 import Twemoji from '../lib/Twemoji'
 import Link from 'next/link'
 import Seo from '../components/seo';
+import Title from '../components/title'
 
 export default function About() {
   return (
@@ -21,7 +22,7 @@ export default function About() {
           emoji={''}
           date={''}
           path={'about'}
-          desc={'haruの自己紹介記事だよ～。'}
+          desc={'haruの自己紹介記事'}
         />
         <Head>
           <title>{`haru blog`}</title>
@@ -29,19 +30,15 @@ export default function About() {
         <Container>
           <div className="flex-grow max-w-full min-h-screen">
             <Header />
-            <h1 className="m-8 text-lg font-IBMjp font-bold tracking-tighter leading-tight tag flex justify-center">
-              # だれ？
-            </h1>
-            <img className="h-auto mx-auto rounded-lg max-w-xs border-2 border-black shadow-sm md:shadow-md" src="/assets/profile.png"></img>
+            <Title 
+              text="だれ？" />
+            <img className="h-auto mx-auto rounded-lg max-w-xs border-2 border-black" src="/assets/profile.png"></img>
             <div className="my-8 font-IBMjp text-center flex justify-center">
               97年うまれです。<br /><br />
               22年09月からイギリスで暮らしています。<br /><br />
               チーズと犬が好きです。<br /><br />
-              教育とテクノロジーに関心があります。<br /><br /><br /><br />
             </div>
-            <h1 className="m-8 text-lg font-IBMjp font-bold tracking-tighter leading-tight tag flex justify-center">
-              # プライバシーポリシー
-            </h1>
+            <Title text="プライバシーポリシー" />
             <div className="my-8 font-IBMjp text-center flex justify-center">
               当サイトは、Googleによるアクセス解析ツール Google Analytics を使用しています。データはCookieを使用し、匿名で収集されています。データ収集を停止したい場合は、お使いのブラウザでCookieを無効に設定してください。この規約に関しての詳細は、Googleアナリティクスサービス利用規約のページをご覧ください。<br /><br />
             </div>

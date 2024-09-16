@@ -10,6 +10,7 @@ import Container from "../../components/container";
 import MoreStories from "../../components/more-stories";
 import Myfooter from '../../components/myfooter';
 import Seo from '../../components/seo';
+import Title from '../../components/title';
 
 type Props = {
   posts: Post[],
@@ -33,9 +34,7 @@ export default function Index({ posts, tag }: Props) {
         <Container>
           <div className="flex-grow min-h-screen">
             <Header />
-            <h1 className="m-8 text-lg font-IBMjp font-bold tracking-tighter leading-tight tag flex justify-center">
-              # {tag}
-            </h1>
+            <Title text={tag} />
             <MoreStories posts={posts} />
           </div>
           <Myfooter />
