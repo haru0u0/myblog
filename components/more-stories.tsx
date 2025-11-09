@@ -16,7 +16,7 @@ const MoreStories = ({ posts }: Props) => {
             emoji={post.emoji}
             date={post.date}
             slug={post.slug}
-            tags={post.tags}
+            tag={post.tag}
           />
         ))}
       </div>

@@ -1,62 +1,122 @@
-import fs from 'fs'
-import { join } from 'path'
-import matter from 'gray-matter'
+import { client } from "./microcms";
 
-const postsDirectory = join(process.cwd(), '_posts')
+// 引数は、すべてのポストの「このフィールドだけ」ほしい
+export async function getAllPosts(fields: string[] = []) {
+  const data = await client.get({
+    endpoint: "blog",
+    queries: {
+      orders: "-date",
+    },
+  });
 
-export function getPostSlugs() {
-  return fs.readdirSync(postsDirectory)
+  const posts = data.contents;
+
+  const result = posts.map((post: any) => {
+    const filtered: any = {};
+    fields.forEach((field) => {
+      if (field === "tag") {
+        // tagがオブジェクトならnameだけ取り出す
+        filtered[field] = post[field].name;
+      } else if (field === "slug") {
+        filtered[field] = post.id; // microCMSのidをslugとして扱う場合
+      } else if (field === "date") {
+        filtered[field] = new Date(post[field]).toLocaleDateString("en-US", {
+          month: "long",
+          day: "numeric",
+          year: "numeric",
+          timeZone: "UTC",
+        });
+      } else if (post[field] !== undefined) {
+        filtered[field] = post[field];
+      }
+    });
+    return filtered;
+  });
+
+  return result;
 }
 
-export function getPostBySlug(slug: string, fields: string[] = []) {
-  const realSlug = slug.replace(/\.md$/, '')
-  //const fullPath = join(postsDirectory, `${realSlug}.md`)
-  const fullPath = join(postsDirectory, `${realSlug}/index.md`)
-  const fileContents = fs.readFileSync(fullPath, 'utf8')
-  const { data, content } = matter(fileContents)
+// 引数は、「このslugのポストの」「このフィールドだけ」ほしい
+export async function getPostBySlug(slug: string, fields: string[] = []) {
+  const data = await client.get({
+    endpoint: `blog/${slug}`,
+  });
 
-  type Items = {
-    [key: string]: string
-  }
+  const post = data;
 
-  const items: Items = {}
+  const result: any = {};
   fields.forEach((field) => {
-    if (field === 'slug') {
-      items[field] = realSlug
+    if (field === "tag") {
+      // tagがオブジェクトならnameだけ取り出す
+      result[field] = post[field].name;
+    } else if (field === "slug") {
+      result[field] = post.id; // microCMSのidをslugとして扱う場合
+    } else if (field === "date") {
+      result[field] = new Date(post[field]).toLocaleDateString("en-US", {
+        month: "long",
+        day: "numeric",
+        year: "numeric",
+        timeZone: "UTC",
+      });
+    } else if (post[field] !== undefined) {
+      result[field] = post[field];
     }
-    if (field === 'content') {
-      items[field] = content
-    }
+  });
 
-    if (typeof data[field] !== 'undefined') {
-      items[field] = data[field]
-    }
-  })
-
-  return items
+  return result;
 }
 
-export function getAllPosts(fields: string[] = []) {
-  const slugs = getPostSlugs()
-  const posts = slugs
-    .map((slug) => getPostBySlug(slug, fields))
-    // sort posts by date in descending order
-    .sort((post1, post2) => (post1.date > post2.date ? -1 : 1))
-  return posts
+export async function getAllTags() {
+  const data = await client.get({
+    endpoint: "tag",
+  });
+
+  const result: any[] = [];
+  data.contents.forEach((e) => {
+    result.push(e.name);
+  });
+
+  return result;
 }
 
-export function getPostsByTag(tag: string, fields: string[] = []) {
-  const slugs = getPostSlugs()
-  return slugs
-  .map((slug) =>  getPostBySlug(slug, fields))
-  .filter((post) => post.tags.includes(tag))
-  .sort((post1, post2) => (post1.date > post2.date ? -1 : 1))
-}
+export async function getPostsByTag(tag_name: string, fields: string[] = []) {
+  const tag_arr = await client.get({
+    endpoint: "tag",
+  });
 
-export function getAllTags() {
-  const allPostTags = getAllPosts(['tags'])
-  .flatMap((post) => post.tags)
-  .sort()
+  const target = tag_arr.contents.find((item) => item.name === tag_name);
 
-  return Array.from(new Set(allPostTags))
+  const data = await client.get({
+    endpoint: "blog",
+    queries: {
+      filters: `tag[equals]${target.id}`,
+      orders: "-date",
+    },
+  });
+
+  const posts = data.contents;
+
+  const result = posts.map((post: any) => {
+    const filtered: any = {};
+    fields.forEach((field) => {
+      if (field === "tag") {
+        // tagがオブジェクトならnameだけ取り出す
+        filtered[field] = post[field].name;
+      } else if (field === "slug") {
+        filtered[field] = post.id; // microCMSのidをslugとして扱う場合
+      } else if (field === "date") {
+        filtered[field] = new Date(post[field]).toLocaleDateString("en-US", {
+          month: "long",
+          day: "numeric",
+          year: "numeric",
+          timeZone: "UTC",
+        });
+      } else if (post[field] !== undefined) {
+        filtered[field] = post[field];
+      }
+    });
+    return filtered;
+  });
+
+  return result;
 }

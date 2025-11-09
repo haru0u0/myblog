@@ -37,3 +37,6 @@ next-env.d.ts
 
 # pics
 /public/assets/blog/posts/*
+
+#other
+.readme
