@@ -30,13 +30,12 @@ export default function About() {
         <Container>
           <div className="flex-grow max-w-full min-h-screen">
             <Header />
-            <Title 
+            <Title
               text="だれ？" />
             <img className="h-auto mx-auto rounded-lg max-w-xs border-2 border-black" src="/assets/profile.png"></img>
             <div className="my-8 font-IBMjp text-center flex justify-center">
-              97年うまれです。<br /><br />
-              22年09月からイギリスで暮らしています。<br /><br />
-              チーズと犬が好きです。<br /><br />
+              97年うまれ👩‍🦰<br /><br />
+              将来の夢は、犬と暮らすことと、注文住宅を建てること🐶🏠🐶<br /><br />
             </div>
             <Title text="プライバシーポリシー" />
             <div className="my-8 font-IBMjp text-center flex justify-center">
