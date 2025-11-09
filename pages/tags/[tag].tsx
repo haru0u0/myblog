@@ -1,6 +1,4 @@
-import { useRouter } from 'next/router'
-import ErrorPage from 'next/error'
-import { CMS_NAME } from '../../lib/constants'
+
 import { getAllTags, getPostsByTag } from "../../lib/api";
 import Post from "../../interfaces/post";
 import Head from "next/head";
@@ -51,13 +49,13 @@ type Params = {
 }
 
 
-export const getStaticProps = ({ params }: Params) => {
-  const posts = getPostsByTag(params.tag, [
+export async function getStaticProps({ params }: Params) {
+  const posts = await getPostsByTag(params.tag, [
     'title',
     'date',
     'slug',
     'emoji',
-    'tags'
+    'tag'
   ])
 
   return {
@@ -68,8 +66,10 @@ export const getStaticProps = ({ params }: Params) => {
   }
 }
 
-export function getStaticPaths() {
-  const tags = getAllTags();
+
+
+export async function getStaticPaths() {
+  const tags = await getAllTags();
 
   return {
     paths: tags.map((tag) => {

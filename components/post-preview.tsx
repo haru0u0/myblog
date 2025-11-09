@@ -1,4 +1,3 @@
-import DateFormatter from './date-formatter'
 import CoverImage from './cover-image'
 import Link from 'next/link'
 
@@ -7,7 +6,7 @@ type Props = {
   emoji: string
   date: string
   slug: string
-  tags: string[]
+  tag: string
 }
 
 const PostPreview = ({
@@ -15,7 +14,7 @@ const PostPreview = ({
   emoji,
   date,
   slug,
-  tags
+  tag
 }: Props) => {
   return (
     <>
@@ -35,13 +34,9 @@ const PostPreview = ({
             </Link>
           </h3>
           <ul className="flex justify-center w-full">
-            {
-              tags.map((tag) => <li className="font-bold mb-1 bg-c3 font-black border-2 border-black text-sm font-medium mr-2 px-2.5 py-0.5 rounded"># {tag}</li>)
-            }
+            <li className="font-bold mb-1 bg-c3 font-black border-2 border-black text-sm font-medium mr-2 px-2.5 py-0.5 rounded"># {tag}</li>
           </ul>
-          <div className="flex justify-center w-full text-sm text-black mt-2">
-            <DateFormatter dateString={date} />
-          </div>
+          <div className="flex justify-center w-full text-sm text-black mt-2">{date}</div>
         </div>
       </div>
     </>
