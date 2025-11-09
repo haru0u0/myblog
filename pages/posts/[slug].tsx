@@ -24,6 +24,7 @@ export default function Post({ post, preview }: Props) {
   const title = `${post.title}`
 
   if (!router.isFallback && !post?.slug) {
+
     return <ErrorPage statusCode={404} />
   }
 

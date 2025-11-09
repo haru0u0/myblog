@@ -1,4 +1,3 @@
-import DateFormatter from './date-formatter'
 import CoverImage from './cover-image'
 import PostTitle from './post-title'
 import Link from 'next/link';
@@ -24,8 +23,7 @@ const PostHeader = ({ title, emoji, date, tag }: Props) => {
           <li className="transition ease-in-out delay-150 hover:translate-y-2 hover:shadow-[0px_0px_0px_rgba(0,0,0,0)] font-IBMjp mb-4 bg-c3 text-black shadow-sm border-2 border-black text-sm font-medium mr-2 px-2.5 py-0.5 rounded"><Link href={`/tags/${tag}`}># {tag}</Link></li>
         </ul>
         <div className="max-w-2xl mx-auto">
-          <div className="mb-6 text-lg flex justify-center font-IBMjp">{date}
-          </div>
+          <div className="mb-6 text-lg flex justify-center font-IBMjp">{date}</div>
         </div>
       </div>
     </>
