@@ -5,6 +5,7 @@ export async function getAllPosts(fields: string[] = []) {
   const data = await client.get({
     endpoint: "blog",
     queries: {
+      limit: 100, //microCMSの仕様で上限は100件まで。記事が100件以上になったらページング処理必要。
       orders: "-date",
     },
   });
@@ -16,7 +17,7 @@ export async function getAllPosts(fields: string[] = []) {
     fields.forEach((field) => {
       if (field === "tag") {
         // tagがオブジェクトならnameだけ取り出す
-        filtered[field] = post[field].name;
+        filtered[field] = post[field] ? post[field].name : null;
       } else if (field === "slug") {
         filtered[field] = post.id; // microCMSのidをslugとして扱う場合
       } else if (field === "date") {
@@ -48,7 +49,7 @@ export async function getPostBySlug(slug: string, fields: string[] = []) {
   fields.forEach((field) => {
     if (field === "tag") {
       // tagがオブジェクトならnameだけ取り出す
-      result[field] = post[field].name;
+      result[field] = post[field] ? post[field].name : null;
     } else if (field === "slug") {
       result[field] = post.id; // microCMSのidをslugとして扱う場合
     } else if (field === "date") {
@@ -91,6 +92,7 @@ export async function getPostsByTag(tag_name: string, fields: string[] = []) {
     queries: {
       filters: `tag[equals]${target.id}`,
       orders: "-date",
+      limit: 100, //microCMSの仕様で上限は100件まで。記事が100件以上になったらページング処理必要。
     },
   });
 
@@ -101,7 +103,7 @@ export async function getPostsByTag(tag_name: string, fields: string[] = []) {
     fields.forEach((field) => {
       if (field === "tag") {
         // tagがオブジェクトならnameだけ取り出す
-        filtered[field] = post[field].name;
+        filtered[field] = post[field] ? post[field].name : null;
       } else if (field === "slug") {
         filtered[field] = post.id; // microCMSのidをslugとして扱う場合
       } else if (field === "date") {
